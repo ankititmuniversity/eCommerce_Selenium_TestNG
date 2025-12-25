@@ -1,0 +1,28 @@
+<configuration status ="WARN">
+    <Properties>
+        <Property name = "basePath">./logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name ="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern ="%d{HH.mm.ss.SSS}[%t]%-5level%logger{36}-%msg%n"/>
+        </Console>
+
+        <RollingFile name ="RollingFile" fileName ="${basePath}/eCommerce.log" filePattern="${basePath}/eCommerce-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern ="%d{HH.mm.ss.SSS}[%t]%-5level%logger{36}-%msg%n"/>
+            <Policies>
+            	<!-- Rotate daily -->
+            	 <!--<TimeBasedTriggeringPolicy interval="1" modulate="true"/>-->
+                <!-- Rotate when file exceeds 10 MB -->
+                <SizeBasedTriggeringPolicy size="1 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <Root level ="DEBUG">
+            <AppenderRef ref ="Console"/>
+            <AppenderRef ref ="RollingFile"/>
+        </Root>
+    </Loggers>
+</configuration>
