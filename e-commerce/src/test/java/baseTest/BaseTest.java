@@ -16,6 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -46,19 +47,18 @@ public class BaseTest {
 	public PaymentPage paymentPage;
 	public ViewProductPage viewProductPage;
 
-	protected String browser;
-	protected String url;
-	protected String email;
-	protected String pwd;
-	protected int timeout;
-	protected String screenshotPath;
-	protected String reportPath;
-	
-	protected static final Logger logger = LogManager.getLogger(BaseTest.class);
+	public String browser;
+	public String url;
+	public String email;
+	public String pwd;
+	public int timeout;
+	public String screenshotPath;
+	public String reportPath;
+	public static final Logger logger = LogManager.getLogger(BaseTest.class);
 
 
-	@BeforeClass
-	public void setUp(ITestContext context) {
+	@BeforeMethod(alwaysRun = true)
+	public void setUp() {
 		browser = ConfigManager.getBrowser();
 		url = ConfigManager.getUrl();
 		email = ConfigManager.getEmail();
@@ -74,7 +74,7 @@ public class BaseTest {
 						//options.addArguments("--headless=new");
 						logger.info("Initializing WebDriver...");
 						driver = new ChromeDriver(options);
-				        logger.debug("Driver initialized: {}", driver);
+						logger.debug("Driver initialized: {}", driver);
 						break;
 		case "edge"  :  WebDriverManager.edgedriver().setup();
 						logger.info("Initializing WebDriver...");
@@ -82,15 +82,15 @@ public class BaseTest {
 						logger.debug("Driver initialized: {}", driver);
 						break;	
 		case "firefox": WebDriverManager.firefoxdriver().setup();
-						logger.info("Initializing WebDriver...");				
-						driver = new FirefoxDriver();
-						logger.debug("Driver initialized: {}", driver);
-						break;	
+					logger.info("Initializing WebDriver...");				
+					driver = new FirefoxDriver();
+					logger.debug("Driver initialized: {}", driver);
+					break;	
 		default : 		driver = null;    				
 		}
 
 		if(driver!=null) {
-			context.setAttribute("driver", driver);
+			//context.setAttribute("driver", driver);
 			driver.get(url);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));	    
@@ -100,25 +100,21 @@ public class BaseTest {
 		}
 
 	}
-	
-	public static String captureScreenshot(WebDriver driver, String testName) {
-        String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-        String screenshotPath = System.getProperty("user.dir") + "/screenshots/" + testName + "-" + timeStamp + ".png";
-        try {
-            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            File dest = new File(screenshotPath);
-            FileUtils.copyFile(src, dest);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return screenshotPath;
-    }
 
-	@AfterClass
+	public String captureScreenshot(String testName) throws IOException {
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+		String screenshotPath = System.getProperty("user.dir") + "/screenshots/" + testName + "-" + timeStamp + ".png";
+		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		File dest = new File(screenshotPath);
+		FileUtils.copyFile(src, dest);
+		return screenshotPath;
+	}
+
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		logger.info("Closing WebDriver...");
-        driver.quit();
-        logger.debug("Driver closed successfully.");
+		driver.quit();
+		logger.debug("Driver closed successfully.");
 
 	}
 }
