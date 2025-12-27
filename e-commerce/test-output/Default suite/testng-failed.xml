@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="buyProduct"/>
+          <include name="buyProduct" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- tests.EUTest -->
     </classes>

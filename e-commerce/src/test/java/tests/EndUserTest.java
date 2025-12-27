@@ -18,7 +18,7 @@ import pages.ViewProductPage;
 
 public class EndUserTest extends BaseTest {
 
-	@Test(groups="smoke")
+	@Test(groups="sanity")
 	public void buyProduct() throws InterruptedException {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);

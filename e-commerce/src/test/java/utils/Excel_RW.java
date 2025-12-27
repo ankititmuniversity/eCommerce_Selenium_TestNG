@@ -65,6 +65,7 @@ public class Excel_RW {
 
 	public void setCellData(String sheetName, int rownum, int colnum, String data) throws IOException {
 		File xlfile = new File(path);
+		// Create workbook if file doesn't exist
 		if (!xlfile.exists()) {
 			workbook = new XSSFWorkbook();
 			fos = new FileOutputStream(path);
@@ -73,12 +74,14 @@ public class Excel_RW {
 		fis = new FileInputStream(path);
 		workbook = new XSSFWorkbook(fis);
 
-		if (workbook.getSheetIndex(sheetName) == -1)
+		if (workbook.getSheetIndex(sheetName) == -1) {
 			workbook.createSheet(sheetName);
+		}
 		sheet = workbook.getSheet(sheetName);
 
-		if (sheet.getRow(rownum) == null)
+		if (sheet.getRow(rownum) == null) {
 			sheet.createRow(rownum);
+		}
 		row = sheet.getRow(rownum);
 		cell = row.createCell(colnum);
 		cell.setCellValue(data);

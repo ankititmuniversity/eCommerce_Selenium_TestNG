@@ -12,6 +12,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.awt.Desktop;
+import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,7 +25,7 @@ public class ExtentReport implements ITestListener {
 	public String reportName;
 	public void onStart(ITestContext testContext) {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		reportName = "Test_Report -" + timeStamp + ".html";
+		reportName = "Test_Report" + timeStamp + ".html";
 		sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/" + reportName);
 		sparkReporter.config().setDocumentTitle("e_Commerce");
 		sparkReporter.config().setReportName("eCommerce User_Module");
@@ -50,18 +52,14 @@ public class ExtentReport implements ITestListener {
 		test.createNode(result.getName());
 		test.log(Status.FAIL,"Test Failed");
 
-		// Retrieve driver from TestNG context
-		//WebDriver driver = (WebDriver) result.getTestContext().getAttribute("driver");
-		if (BaseTest.driver != null) {
-			String screenshotPath = BaseTest.captureScreenshot(BaseTest.driver, result.getName());
+		try {
+			String screenshotPath = new BaseTest().captureScreenshot(result.getName());
 			test.addScreenCaptureFromPath(screenshotPath);
-
-		} else {
-			test.log(Status.WARNING, "Driver was null, screenshot not captured.");
-		}
-
-
-
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+		
 	}
 	public void onTestSkipped(ITestResult result){
 		test = extent.createTest(result.getName());
@@ -72,5 +70,12 @@ public class ExtentReport implements ITestListener {
 	}
 	public void onFinish(ITestContext testContext){
 		extent.flush();
+		String pathOfReport = System.getProperty("user.dir")+"\\reports\\"+reportName;
+		File extentReport = new File(pathOfReport);
+		try {
+		Desktop.getDesktop().browse(extentReport.toURI());
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
