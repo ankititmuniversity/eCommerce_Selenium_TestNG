@@ -27,6 +27,7 @@ pipeline {
             steps {
                 junit '**/target/surefire-reports/*.xml'
                 // or use testng '**/test-output/testng-results.xml' if TestNG plugin is installed
+                testng '**/test-output/testng-results.xml'
             }
         }
     }
