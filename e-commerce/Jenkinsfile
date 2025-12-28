@@ -1,22 +1,45 @@
 pipeline {
     agent any
+
     tools {
-        maven 'Maven_3.9.4'
-        jdk 'JDK11'
+        maven 'Maven_3.9.4'   // must match Global Tool Configuration
+        jdk 'JDK11'           // must match Global Tool Configuration
     }
+
     triggers {
-        githubPush()   //listens for GitHub push events
+        githubPush()
     }
+
     stages {
         stage('Checkout') {
             steps {
                 git branch: 'test/e2e_UI', url: 'https://github.com/ankititmuniversity/eCommerce_Selenium_TestNG.git'
             }
         }
+
         stage('Build & Test') {
             steps {
-                sh 'mvn clean test -f e-commerce/pom.xml' 
+                sh 'mvn clean test -f e-commerce/pom.xml'
             }
+        }
+
+        stage('Publish Reports') {
+            steps {
+                junit '**/target/surefire-reports/*.xml'
+                // or use testng '**/test-output/testng-results.xml' if TestNG plugin is installed
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Build and tests passed successfully!'
+        }
+        failure {
+            echo 'Build or tests failed. Please check logs and reports.'
+        }
+        always {
+            archiveArtifacts artifacts: 'target/surefire-reports/*.xml', fingerprint: true
         }
     }
 }
