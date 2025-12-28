@@ -11,7 +11,7 @@ pipeline {
         //pollSCM('H/5 * * * *')
 
         // Option 2 (preferred): GitHub webhook
-        //// For webhook, remove pollSCM and configure webhook in GitHub repo settings
+        // For webhook, remove pollSCM and configure webhook in GitHub repo settings
         // GitHub webhook trigger (no pollSCM here)
         githubPush()
 
