@@ -12,7 +12,7 @@ pipeline {
 
         // Option 2 (preferred): GitHub webhook
         // For webhook, remove pollSCM and configure webhook in GitHub repo settings
-        // GitHub webhook trigger (no pollSCM here)
+        //// GitHub webhook trigger (no pollSCM here)
         githubPush()
 
     }
