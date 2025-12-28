@@ -8,10 +8,13 @@ pipeline {
 
     triggers {
         // Option 1: Poll SCM every 5 minutes
-        pollSCM('H/5 * * * *')
+        //pollSCM('H/5 * * * *')
 
         // Option 2 (preferred): GitHub webhook
         // For webhook, remove pollSCM and configure webhook in GitHub repo settings
+        // GitHub webhook trigger (no pollSCM here)
+        githubPush()
+
     }
 
     stages {
@@ -32,17 +35,17 @@ pipeline {
                 sh 'mvn test -f e-commerce/pom.xml'
             }
         }
-        stage('Publish Extent Reports') {
+       /* stage('Publish Extent Reports') {
             steps {
-                junit '**/target/surefire-reports/*.xml'
-                archiveArtifacts artifacts: '**/reports/*.html', fingerprint: true
+                junit '*target/surefire-reports.xml'
+                archiveArtifacts artifacts: '*reports.html', fingerprint: true
                 publishHTML([
-                    reportDir: '**/reports',
+                    reportDir: '*reports',
                     reportFiles: 'ExtentReport.html',
                     reportName: 'Extent Report'
                 ])
             }
-        }
+        }*/
 
 
         stage('Publish Reports') {
