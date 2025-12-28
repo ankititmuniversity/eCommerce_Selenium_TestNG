@@ -5,7 +5,7 @@ pipeline {
         jdk 'JDK11'
     }
     triggers {
-        githubPush()   ////listens for GitHub push events
+        githubPush()   //listens for GitHub push events
     }
     stages {
         stage('Checkout') {
