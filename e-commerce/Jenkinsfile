@@ -1,0 +1,68 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven_3.8.1'   // Name of Maven installation in Jenkins Global Tool Config
+        jdk 'JDK11'           // Name of JDK installation in Jenkins Global Tool Config
+    }
+
+    triggers {
+        // Option 1: Poll SCM every 5 minutes
+        pollSCM('H/5 * * * *')
+
+        // Option 2 (preferred): GitHub webhook
+        // For webhook, remove pollSCM and configure webhook in GitHub repo settings
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'test/e2e_UI', url: 'https://github.com/ankititmuniversity/eCommerce_Selenium_TestNG.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn clean compile -f e-commerce/pom.xml'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh 'mvn test -f e-commerce/pom.xml'
+            }
+        }
+        stage('Publish Extent Reports') {
+            steps {
+                junit '**/target/surefire-reports/*.xml'
+                archiveArtifacts artifacts: '**/reports/*.html', fingerprint: true
+                publishHTML([
+                    reportDir: '**/reports',
+                    reportFiles: 'ExtentReport.html',
+                    reportName: 'Extent Report'
+                ])
+            }
+        }
+
+
+        stage('Publish Reports') {
+            steps {
+                junit '**/target/surefire-reports/*.xml'
+                testNG '**/reports/*.html''
+            }
+        }
+        
+    }
+
+    post {
+        success {
+            echo 'Build and tests passed successfully!'
+        }
+        failure {
+            echo 'Build or tests failed. Please check logs and reports.'
+        }
+        always {
+            archiveArtifacts artifacts: 'target/surefire-reports/*.xml', fingerprint: true
+        }
+    }
+}
