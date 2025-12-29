@@ -25,7 +25,7 @@ pipeline {
 
         stage('Publish Reports') {
             steps {
-                junit '**/target/surefire-reports/*.xml'
+                //junit '**/target/surefire-reports/*.xml'
                 // or use testng '**/test-output/testng-results.xml' if TestNG plugin is installed
                 testng '**/test-output/testng-results.xml'
             }
@@ -40,7 +40,8 @@ pipeline {
             echo 'Build or tests failed. Please check logs and reports.'
         }
         always {
-            archiveArtifacts artifacts: 'target/surefire-reports/*.xml', fingerprint: true
+           // archiveArtifacts artifacts: 'target/surefire-reports/*.xml', fingerprint: true
+            archiveArtifacts artifacts: 'test-output/*.xml', fingerprint: true
         }
     }
 }

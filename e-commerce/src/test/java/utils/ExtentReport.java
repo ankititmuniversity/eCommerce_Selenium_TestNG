@@ -70,12 +70,12 @@ public class ExtentReport implements ITestListener {
 	}
 	public void onFinish(ITestContext testContext){
 		extent.flush();
-		String pathOfReport = System.getProperty("user.dir")+"\\reports\\"+reportName;
-		File extentReport = new File(pathOfReport);
-		try {
-		Desktop.getDesktop().browse(extentReport.toURI());
-		}catch(IOException e) {
-			e.printStackTrace();
-		}
+//		String pathOfReport = System.getProperty("user.dir")+"\\reports\\"+reportName;
+//		File extentReport = new File(pathOfReport);
+//		try {
+//		Desktop.getDesktop().browse(extentReport.toURI());
+//		}catch(IOException e) {
+//			e.printStackTrace();
+//		}
 	}
 }
