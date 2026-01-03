@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-03T00:06:25 IST" name="Default suite" finished-at="2026-01-03T00:08:06 IST" duration-ms="101329">
+  <suite started-at="2026-01-03T22:31:01 IST" name="Suite" finished-at="2026-01-03T22:32:41 IST" duration-ms="100200">
     <groups>
     </groups>
-    <test started-at="2026-01-03T00:06:25 IST" name="Default test" finished-at="2026-01-03T00:08:06 IST" duration-ms="101329">
-      <class name="commonOperations.Demo03_FormSubmission">
-        <test-method signature="submitForm()[pri:0, instance:commonOperations.Demo03_FormSubmission@1a677343]" started-at="2026-01-03T00:06:25 IST" name="submitForm" finished-at="2026-01-03T00:08:06 IST" duration-ms="101266" status="PASS">
+    <test started-at="2026-01-03T22:31:01 IST" name="Test" finished-at="2026-01-03T22:31:01 IST" duration-ms="150">
+    </test> <!-- Test -->
+    <test started-at="2026-01-03T22:31:01 IST" name="CommonSeleniumTest" finished-at="2026-01-03T22:32:41 IST" duration-ms="99780">
+      <class name="commonOperations.Demo03_FormPart1">
+        <test-method signature="submitForm()[pri:0, instance:commonOperations.Demo03_FormPart1@654d8173]" started-at="2026-01-03T22:31:01 IST" name="submitForm" finished-at="2026-01-03T22:31:54 IST" duration-ms="52945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitForm -->
-      </class> <!-- commonOperations.Demo03_FormSubmission -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- commonOperations.Demo03_FormPart1 -->
+      <class name="commonOperations.Demo04_FormPart2">
+        <test-method signature="formPart2()[pri:0, instance:commonOperations.Demo04_FormPart2@56c9bbd8]" started-at="2026-01-03T22:31:54 IST" name="formPart2" finished-at="2026-01-03T22:32:41 IST" duration-ms="46760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formPart2 -->
+      </class> <!-- commonOperations.Demo04_FormPart2 -->
+    </test> <!-- CommonSeleniumTest -->
+  </suite> <!-- Suite -->
 </testng-results>

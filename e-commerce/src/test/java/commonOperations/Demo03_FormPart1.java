@@ -10,6 +10,7 @@ import java.util.Set;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +20,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Demo03_FormSubmission {
+public class Demo03_FormPart1 {
 	@Test
 	public void submitForm() {
 		WebDriverManager.chromedriver().setup();
@@ -173,6 +174,41 @@ public class Demo03_FormSubmission {
 
         System.out.println("Total broken links: " + brokenCount);
 
+        //Shadow DOM element Handling
+        // Step 1: Get shadow root of #shadow_host
+        WebElement shadowHost = driver.findElement(By.cssSelector("#shadow_host"));
+        SearchContext shadowRoot = shadowHost.getShadowRoot();
+
+        // Step 2: Get 'Mobiles' text from #shadow_content
+        WebElement mobilesText = shadowRoot.findElement(By.cssSelector("#shadow_content .info"));
+        System.out.println("Mobiles text: " + mobilesText.getText());
+
+        // Step 3: Get nested shadow root of #nested_shadow_host
+        WebElement nestedHost = shadowRoot.findElement(By.cssSelector("#nested_shadow_host"));
+        SearchContext nestedRoot = nestedHost.getShadowRoot();
+
+        // Step 4: Get 'Laptops' text from #nested_shadow_content
+        WebElement laptopsText = nestedRoot.findElement(By.cssSelector("#nested_shadow_content div"));
+        System.out.println("Laptops text: " + laptopsText.getText());
+
+        // Step 5: Click on Blog link (outside shadow DOM)
+        WebElement blogLink = driver.findElement(By.linkText("Blog"));
+        blogLink.click();
+        driver.navigate().back();
+        
+        //Chossing File 
+        String filePath = "C:\\Users\\ankit\\OneDrive\\Desktop\\Diagram showing Jenk.png";
+        WebElement chooseFile = driver.findElement(By.xpath("//input[@type='file']"));
+        chooseFile.sendKeys(filePath);
+        String uploadedFile = chooseFile.getAttribute("value");
+        System.out.println("Uploaded file: " + uploadedFile);
+        
+        //Form Fields Handling
+        
+
+
+        
+        
         
 		// driver.quit();
 
