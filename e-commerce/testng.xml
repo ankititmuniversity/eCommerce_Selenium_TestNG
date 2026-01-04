@@ -3,7 +3,8 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<include name="smoke" />
+			<exclude name="smoke"/>
+			<include name="sanity"/>
 		</run>
 	</groups>
 	<listeners>
@@ -14,7 +15,11 @@
 			<class name="tests.EUTest" />
 			<class name="tests.EndUserTest" />
 		</classes>
-	</test> <!--
-	Test -->
-</suite> <!--
-Suite -->
+	</test> <!--Test -->
+	<test thread-count="5" name="CommonSeleniumTest">
+		<classes>
+			<class name="commonOperations.Demo03_FormPart1" />
+			<class name="commonOperations.Demo04_FormPart2" />
+		</classes>
+	</test>
+</suite> <!--Suite -->
