@@ -8,13 +8,13 @@
   </listeners>
   <test thread-count="5" name="e2e Test(failed)">
     <classes>
-      <class name="tests.EndUserTest">
+      <class name="tests.EUTest">
         <methods>
           <include name="setUp"/>
-          <include name="buyProduct"/>
           <include name="tearDown"/>
+          <include name="buyProduct"/>
         </methods>
-      </class> <!-- tests.EndUserTest -->
+      </class> <!-- tests.EUTest -->
     </classes>
   </test> <!-- e2e Test(failed) -->
 </suite> <!-- Failed suite [E-Commerce Suite] -->
