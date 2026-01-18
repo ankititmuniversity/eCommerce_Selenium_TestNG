@@ -12,7 +12,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterClass;
@@ -21,6 +23,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pages.CartPage;
@@ -34,11 +37,13 @@ import utils.ConfigManager;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class BaseTest {
-	public static WebDriver driver;
+	public WebDriver driver;
 	public LoginPage loginPage;
 	public HomePage homePage;
 	public ProductPage productPage;
@@ -56,11 +61,11 @@ public class BaseTest {
 	public String reportPath;
 	public static final Logger logger = LogManager.getLogger(BaseTest.class);
 
-
+	@Parameters({"browser","url"})
 	@BeforeMethod(alwaysRun = true)
-	public void setUp() {
-		browser = ConfigManager.getBrowser();
-		url = ConfigManager.getUrl();
+	public void setUp(String browser,String url,ITestContext context) throws MalformedURLException {
+		//		browser = ConfigManager.getBrowser();
+		//		url = ConfigManager.getUrl();
 		email = ConfigManager.getEmail();
 		pwd = 	ConfigManager.getPwd();	
 		timeout = ConfigManager.getTimeout();
@@ -68,24 +73,33 @@ public class BaseTest {
 		reportPath = ConfigManager.getReportPath();
 
 		switch(browser) {
-		case "chrome" : WebDriverManager.chromedriver().setup();
+		case "chrome" :// WebDriverManager.chromedriver().setup();
 						ChromeOptions options = new ChromeOptions();
 						options.addArguments("--incognito"); 
 						//options.addArguments("--headless=new");
 						logger.info("Initializing WebDriver...");
+						//driver = new ChromeDriver(options);
+						driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+						logger.debug("Driver initialized: {}", driver);
 						driver = new ChromeDriver(options);
 						logger.debug("Driver initialized: {}", driver);
 						break;
-		case "edge"  :  WebDriverManager.edgedriver().setup();
+		case "edge"  :  //WebDriverManager.edgedriver().setup();
+						EdgeOptions eoptions = new EdgeOptions();
+						eoptions.addArguments("--incognito");
+						// Optional: set capabilities
+						//eoptions.setCapability("platformName", "WINDOWS");
+						//eoptions.setCapability("browserVersion", "latest");
 						logger.info("Initializing WebDriver...");
-						driver = new EdgeDriver();
+						//driver = new EdgeDriver();
+						driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), eoptions);
 						logger.debug("Driver initialized: {}", driver);
 						break;	
 		case "firefox": WebDriverManager.firefoxdriver().setup();
-					logger.info("Initializing WebDriver...");				
-					driver = new FirefoxDriver();
-					logger.debug("Driver initialized: {}", driver);
-					break;	
+						logger.info("Initializing WebDriver...");				
+						driver = new FirefoxDriver();
+						logger.debug("Driver initialized: {}", driver);
+						break;	
 		default : 		driver = null;    				
 		}
 
@@ -101,7 +115,7 @@ public class BaseTest {
 
 	}
 
-	public String captureScreenshot(String testName) throws IOException {
+	public static String captureScreenshot(WebDriver driver, String testName) throws IOException {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		String screenshotPath = System.getProperty("user.dir") + "/screenshots/" + testName + "-" + timeStamp + ".png";
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

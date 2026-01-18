@@ -1,5 +1,4 @@
 package tests;
-
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,9 +10,11 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.PaymentPage;
 import pages.ProductPage;
+import utils.RetryAnalyzer;
 import utils.TestDataProvider;
-
 public class EUTest extends BaseTest {
+	
+	//@Test(retryAnalyzer=RetryAnalyzer.class)
 	@Test(groups = {"smoke"},dataProvider = "credentials", dataProviderClass = TestDataProvider.class)
 	public void buyProduct(String email,String password) {
 		logger.info("Initial Set up Done");

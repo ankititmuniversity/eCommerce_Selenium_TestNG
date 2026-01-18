@@ -3,23 +3,19 @@
 <suite name="Suite">
 	<groups>
 		<run>
-			<exclude name="smoke"/>
+			<include name="smoke"/>
 			<include name="sanity"/>
 		</run>
 	</groups>
 	<listeners>
 		<listener class-name="utils.ExtentReport"></listener>
 	</listeners>
-	<test thread-count="5" name="Test">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://automationexercise.com"></parameter>
+	<test thread-count="5" name="e2e Test">
 		<classes>
 			<class name="tests.EUTest" />
 			<class name="tests.EndUserTest" />
 		</classes>
 	</test> <!--Test -->
-	<test thread-count="5" name="CommonSeleniumTest">
-		<classes>
-			<class name="commonOperations.Demo03_FormPart1" />
-			<class name="commonOperations.Demo04_FormPart2" />
-		</classes>
-	</test>
 </suite> <!--Suite -->
