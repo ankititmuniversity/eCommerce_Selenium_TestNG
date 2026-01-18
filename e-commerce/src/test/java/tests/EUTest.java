@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import baseTest.BaseTest;
@@ -9,9 +10,10 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.PaymentPage;
 import pages.ProductPage;
+import utils.RetryAnalyzer;
 
 public class EUTest extends BaseTest {
-	@Test
+	@Test(retryAnalyzer=RetryAnalyzer.class)
 	public void buyProduct() {
 		logger.info("Initial Set up Done");
 		LoginPage loginPage = new LoginPage(driver);

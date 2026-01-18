@@ -1520,3 +1520,1350 @@
 23.19.17.148[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (0034cbf2ce380643a22aaae997c6b3c3)
 23.19.48.286[main]INFO baseTest.BaseTest-Closing WebDriver...
 23.19.48.714[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.22.23.940[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.22.24.059[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.22.24.073[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.22.24.075[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.22.24.086[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50d951e7
+23.22.24.111[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.22.24.111[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.22.24.120[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.22.24.126[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.22.24.128[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.22.24.130[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.22.24.132[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.22.24.136[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.22.24.140[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+23.22.24.144[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.22.24.145[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.22.24.147[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.22.24.148[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.22.24.149[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.22.24.149[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.22.24.151[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.22.24.151[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.22.24.154[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.22.24.156[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.22.24.166[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.22.24.191[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.22.24.191[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.22.24.255[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.22.24.255[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.22.24.277[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.22.24.294[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.22.24.308[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.22.24.309[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.22.24.421[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.22.24.421[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.22.24.421[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.22.24.422[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.22.24.422[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.22.24.422[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.22.24.422[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.22.24.423[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.22.24.423[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.22.24.424[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.22.24.425[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.22.24.425[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.22.24.439[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.22.24.440[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.22.24.441[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.22.24.909[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 25588 (auto-detected)
+23.22.24.912[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.22.24.912[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.22.24.916[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.22.24.917[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.22.24.920[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.22.24.960[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.22.24.960[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.22.24.962[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@558a4ad9
+23.22.24.990[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.22.24.991[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.22.24.991[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.22.24.991[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.22.24.991[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.22.25.682[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.22.25.865[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xcacf0050cf6de897
+23.22.25.966[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (c25d85fe7f4a9e14b5314c3d93347d9b)
+23.22.30.771[main]INFO baseTest.BaseTest-Initial Set up Done
+23.22.30.833[main]INFO baseTest.BaseTest-Login is working as expected
+23.22.44.594[main]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.22.45.243[main]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.22.50.205[main]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.22.52.814[main]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.23.19.918[main]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.23.19.974[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.23.22.431[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.23.22.452[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.23.23.285[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (7b762a0f08db0c0f47c20266439a8d06)
+23.23.53.392[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.23.56.382[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.53.42.236[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.53.42.371[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.53.42.385[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.53.42.389[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.53.42.397[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bc44ce8
+23.53.42.415[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.53.42.415[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.53.42.417[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.53.42.417[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.53.42.418[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.53.42.419[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.53.42.420[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.53.42.421[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.53.42.423[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+23.53.42.424[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.53.42.426[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.53.42.428[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.53.42.430[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.53.42.432[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.53.42.433[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.53.42.438[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.53.42.439[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.53.42.445[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.53.42.446[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.53.42.454[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.53.42.471[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.53.42.471[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.53.42.497[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.53.42.497[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.53.42.514[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.53.42.532[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.53.42.544[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.53.42.545[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.53.42.634[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.53.42.634[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.53.42.635[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.53.42.635[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.53.42.635[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.53.42.636[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.53.42.636[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.53.42.636[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.53.42.637[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.53.42.638[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.53.42.639[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.53.42.639[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.53.42.655[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.53.42.655[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.53.42.655[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.53.42.942[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 7984 (auto-detected)
+23.53.42.945[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.53.42.947[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.53.42.950[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.53.42.953[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.53.42.956[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.53.43.007[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.53.43.008[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.53.43.009[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ea20de3
+23.53.43.032[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.53.43.032[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.53.43.032[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.53.43.032[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.53.43.033[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.53.43.780[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.53.43.951[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xb65e6347b55ebc5f
+23.53.44.013[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (0c6ab52709d7dd999419ab4bab8b307f)
+23.54.03.910[main]INFO baseTest.BaseTest-Initial Set up Done
+23.54.03.984[main]INFO baseTest.BaseTest-Initial Set up Done
+23.54.04.030[main]INFO baseTest.BaseTest-Initial Set up Done
+23.54.04.263[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.54.04.520[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.54.04.560[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.54.05.292[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (ff48c517fbcec17dc36b6cbff3c95ae1)
+23.54.50.415[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.54.50.792[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.58.08.331[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.58.08.472[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.58.08.491[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.58.08.493[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.58.08.499[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c575325
+23.58.08.517[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.58.08.517[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.58.08.519[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.58.08.520[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.58.08.521[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.58.08.522[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.58.08.523[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.58.08.525[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.58.08.529[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+23.58.08.534[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.58.08.535[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.58.08.537[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.58.08.538[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.58.08.539[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.58.08.540[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.58.08.542[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.58.08.542[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.58.08.544[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.58.08.545[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.58.08.559[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.58.08.578[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.58.08.578[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.58.08.650[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.58.08.651[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.58.08.672[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.58.08.685[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.58.08.695[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.58.08.696[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.58.08.795[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.58.08.796[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.58.08.796[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.58.08.796[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.58.08.797[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.58.08.797[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.58.08.797[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.58.08.798[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.58.08.798[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.58.08.800[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.58.08.800[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.58.08.801[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.58.08.817[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.58.08.818[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.58.08.818[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.58.09.208[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 29972 (auto-detected)
+23.58.09.210[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.58.09.211[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.58.09.216[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.58.09.217[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.58.09.219[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.58.09.263[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.58.09.264[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.58.09.265[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a64b20c
+23.58.09.292[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.58.09.293[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.58.09.293[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.58.09.293[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.58.09.294[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.58.10.113[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.58.10.269[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0x1c1ddd00d18d6e5c
+23.58.10.335[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (de93984d7b684a0cdea789a9875532be)
+23.58.31.017[main]INFO baseTest.BaseTest-Initial Set up Done
+23.58.31.087[main]INFO baseTest.BaseTest-Initial Set up Done
+23.58.31.109[main]INFO baseTest.BaseTest-Initial Set up Done
+23.58.31.608[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.58.31.926[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+00.01.28.245[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.01.28.353[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.01.28.363[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.01.28.364[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.01.28.370[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5b275174
+00.01.28.393[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.01.28.393[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.01.28.395[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.01.28.397[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.01.28.397[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.01.28.398[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.01.28.399[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.01.28.400[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.01.28.401[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.01.28.404[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.01.28.404[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.01.28.408[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.01.28.409[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.01.28.409[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.01.28.410[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.01.28.411[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.01.28.412[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.01.28.414[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.01.28.415[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.01.28.422[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.01.28.442[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.01.28.453[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.01.28.524[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.01.28.525[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.01.28.537[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.01.28.551[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.01.28.561[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.01.28.562[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.01.28.634[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.01.28.634[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.01.28.634[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.01.28.634[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.01.28.635[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.01.28.635[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.01.28.635[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.01.28.636[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.01.28.636[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.01.28.637[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.01.28.638[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.01.28.638[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.01.28.650[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.01.28.652[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.01.28.652[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.01.28.934[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 14340 (auto-detected)
+00.01.28.937[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.01.28.937[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.01.28.941[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.01.28.942[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.01.28.946[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.01.28.997[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.01.28.997[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.01.28.998[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3a64b20c
+00.01.29.020[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.01.29.021[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.01.29.021[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.01.29.021[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.01.29.021[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.01.29.692[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.01.29.870[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xd6edbd87160e176c
+00.01.29.933[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (28e0889d693be5c041a861bffdc8c696)
+00.01.33.277[main]INFO baseTest.BaseTest-Initial Set up Done
+00.01.33.376[main]INFO baseTest.BaseTest-Initial Set up Done
+00.01.33.389[main]INFO baseTest.BaseTest-Initial Set up Done
+00.01.34.344[main]INFO baseTest.BaseTest-Closing WebDriver...
+00.01.35.618[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+00.15.22.724[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.15.22.825[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.15.22.835[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.15.22.836[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.15.22.842[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10acd6
+00.15.22.863[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.15.22.863[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.15.22.865[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.15.22.867[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.15.22.868[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.15.22.869[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.15.22.871[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.15.22.871[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.15.22.873[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.15.22.876[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.15.22.876[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.15.22.877[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.15.22.878[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.15.22.879[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.15.22.879[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.15.22.881[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.15.22.881[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.15.22.883[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.15.22.884[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.15.22.892[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.15.22.918[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.15.22.919[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.15.22.993[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.15.22.994[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.15.23.009[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.15.23.021[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.15.23.032[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.15.23.032[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.15.23.107[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.15.23.108[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.15.23.108[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.15.23.108[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.15.23.108[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.15.23.108[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.15.23.108[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.15.23.109[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.15.23.109[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.15.23.111[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.15.23.112[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.15.23.112[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.15.23.125[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.15.23.126[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.15.23.126[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.15.23.463[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 21008 (auto-detected)
+00.15.23.467[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.15.23.467[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.15.23.472[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.15.23.475[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.15.23.480[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.15.23.558[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.15.23.558[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.15.23.559[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c0b218
+00.15.23.580[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.15.23.580[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.15.23.581[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.15.23.581[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.15.23.581[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.15.24.338[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.15.24.515[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0x631b7978d8df2185
+00.15.24.584[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (5c0cd9694017274cfa74ebc822d1aea8)
+00.17.23.926[main]INFO baseTest.BaseTest-Initial Set up Done
+00.17.24.003[main]INFO baseTest.BaseTest-Initial Set up Done
+00.17.24.011[main]INFO baseTest.BaseTest-Initial Set up Done
+00.17.24.018[main]INFO baseTest.BaseTest-Initial Set up Done
+00.17.24.475[main]INFO baseTest.BaseTest-Closing WebDriver...
+00.17.24.785[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+00.27.27.035[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.27.27.145[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.27.27.154[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.27.27.156[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.27.27.165[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2acbc859
+00.27.27.184[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.27.27.185[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.27.27.196[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.27.27.198[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.27.27.199[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.27.27.201[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.27.27.202[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.27.27.210[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.27.27.215[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.27.27.219[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.27.27.220[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.27.27.224[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.27.27.225[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.27.27.226[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.27.27.229[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.27.27.232[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.27.27.233[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.27.27.236[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.27.27.238[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.27.27.249[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.27.27.269[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.27.27.270[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.27.27.361[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.27.27.361[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.27.27.377[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.27.27.393[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.27.27.402[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.27.27.403[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.27.27.514[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.27.27.514[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.27.27.515[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.27.27.515[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.27.27.515[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.27.27.515[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.27.27.516[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.27.27.516[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.27.27.516[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.27.27.517[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.27.27.518[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.27.27.518[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.27.27.537[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.27.27.537[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.27.27.538[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.27.27.906[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 3292 (auto-detected)
+00.27.27.910[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.27.27.910[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.27.27.915[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.27.27.916[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.27.27.920[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.27.27.971[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.27.27.971[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.27.27.972[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1898c3e8
+00.27.27.998[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.27.27.998[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.27.27.998[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.27.27.999[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.27.27.999[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.27.28.849[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.27.29.029[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xa80bebe4b258a80c
+00.27.29.096[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (1ed860db6e4f5bb7fa4976842af442c4)
+00.27.29.231[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.27.30.044[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (c1f2e242b54c0f6d58071c1d8ed7a485)
+00.31.34.638[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.31.34.749[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.31.34.761[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.31.34.761[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.31.34.772[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5496c165
+00.31.34.793[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.31.34.794[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.31.34.796[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.31.34.797[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.31.34.797[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.31.34.798[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.31.34.799[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.31.34.800[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.31.34.802[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.31.34.803[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.31.34.804[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.31.34.806[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.31.34.806[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.31.34.806[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.31.34.807[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.31.34.808[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.31.34.809[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.31.34.812[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.31.34.813[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.31.34.821[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.31.34.840[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.31.34.841[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.31.34.939[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.31.34.940[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.31.34.954[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.31.34.966[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.31.34.975[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.31.34.976[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.31.35.049[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.31.35.050[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.31.35.050[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.31.35.050[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.31.35.050[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.31.35.050[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.31.35.051[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.31.35.051[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.31.35.051[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.31.35.052[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.31.35.053[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.31.35.053[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.31.35.067[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.31.35.067[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.31.35.068[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.31.35.325[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 19888 (auto-detected)
+00.31.35.328[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.31.35.329[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.31.35.332[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.31.35.333[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.31.35.336[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.31.35.376[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.31.35.376[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.31.35.377[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@447a5eee
+00.31.35.411[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.31.35.412[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.31.35.412[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.31.35.412[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.31.35.413[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.31.36.069[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.31.36.237[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xd749bbc595c3cfba
+00.31.36.303[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (045e4e0410c1632e2f672fc364f16d88)
+00.31.36.406[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.31.37.358[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (193d662fe205cc8ea592a123e0bcb714)
+00.33.18.070[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.33.18.197[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.33.18.207[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.33.18.208[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.33.18.214[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5496c165
+00.33.18.231[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.33.18.232[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.33.18.233[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.33.18.234[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.33.18.235[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.33.18.236[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.33.18.237[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.33.18.238[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.33.18.240[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.33.18.242[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.33.18.243[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.33.18.244[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.33.18.245[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.33.18.245[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.33.18.246[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.33.18.247[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.33.18.248[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.33.18.251[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.33.18.251[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.33.18.260[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.33.18.278[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.33.18.279[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.33.18.361[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.33.18.361[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.33.18.377[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.33.18.388[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.33.18.400[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.33.18.400[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.33.18.478[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.33.18.478[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.33.18.478[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.33.18.478[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.33.18.478[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.33.18.478[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.33.18.480[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.33.18.480[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.33.18.480[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.33.18.481[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.33.18.482[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.33.18.482[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.33.18.495[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.33.18.495[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.33.18.496[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.33.18.793[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 26480 (auto-detected)
+00.33.18.796[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.33.18.797[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.33.18.802[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.33.18.803[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.33.18.806[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.33.18.860[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.33.18.861[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.33.18.862[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@447a5eee
+00.33.18.895[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.33.18.896[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.33.18.896[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.33.18.897[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.33.18.897[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.33.19.562[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.33.19.727[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xd86628bde8c23d4b
+00.33.19.790[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (15478a8894596ba1fe4a038bab0ccc64)
+00.33.58.936[main]INFO baseTest.BaseTest-Initial Set up Done
+00.33.59.185[main]INFO baseTest.BaseTest-Login is working as expected
+00.34.04.300[main]INFO baseTest.BaseTest-Initial Set up Done
+00.34.04.300[main]INFO baseTest.BaseTest-Login is working as expected
+00.35.22.298[main]INFO baseTest.BaseTest-Initial Set up Done
+00.35.22.300[main]INFO baseTest.BaseTest-Login is working as expected
+00.35.22.325[main]INFO baseTest.BaseTest-Initial Set up Done
+00.35.22.326[main]INFO baseTest.BaseTest-Login is working as expected
+00.35.22.352[main]INFO baseTest.BaseTest-Closing WebDriver...
+00.35.22.658[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+00.35.31.504[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.35.31.646[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.35.31.657[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.35.31.659[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.35.31.668[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2e5ee2c9
+00.35.31.692[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.35.31.693[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.35.31.694[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.35.31.696[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.35.31.696[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.35.31.697[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.35.31.698[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.35.31.700[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.35.31.703[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.35.31.705[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.35.31.706[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.35.31.708[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.35.31.708[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.35.31.710[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.35.31.710[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.35.31.712[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.35.31.712[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.35.31.715[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.35.31.715[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.35.31.722[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.35.31.738[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.35.31.739[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.35.31.812[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.35.31.813[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.35.31.826[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.35.31.840[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.35.31.850[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.35.31.851[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.35.31.937[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.35.31.937[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.35.31.937[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.35.31.937[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.35.31.937[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.35.31.938[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.35.31.938[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.35.31.938[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.35.31.938[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.35.31.940[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.35.31.941[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.35.31.941[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.35.31.956[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.35.31.957[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.35.31.957[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.35.32.270[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 32904 (auto-detected)
+00.35.32.273[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.35.32.273[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.35.32.277[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.35.32.279[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.35.32.281[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.35.32.344[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.35.32.345[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.35.32.346[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1ba925e0
+00.35.32.371[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.35.32.372[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.35.32.372[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.35.32.373[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.35.32.373[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.35.33.040[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.35.33.197[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0xa40f6eadb734e98c
+00.35.33.276[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (7fcff997c5169b785ca49e7000723bbe)
+00.35.39.545[main]INFO baseTest.BaseTest-Initial Set up Done
+00.35.39.582[main]INFO baseTest.BaseTest-Login is working as expected
+00.35.45.184[main]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+00.35.45.629[main]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+00.35.50.185[main]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+00.36.53.794[main]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+00.37.03.255[main]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+00.37.03.283[main]INFO baseTest.BaseTest-Closing WebDriver...
+00.37.03.667[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+00.37.03.701[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.37.04.454[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (d4144d22400ce3062537d6c5c789cbb5)
+00.38.11.964[main]INFO baseTest.BaseTest-Closing WebDriver...
+00.38.12.315[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+00.39.55.634[main]INFO baseTest.BaseTest-Initializing WebDriver...
+00.39.55.781[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+00.39.55.793[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+00.39.55.794[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+00.39.55.813[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c575325
+00.39.55.840[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+00.39.55.841[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+00.39.55.843[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+00.39.55.844[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+00.39.55.845[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+00.39.55.846[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+00.39.55.847[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+00.39.55.847[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+00.39.55.849[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+00.39.55.852[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+00.39.55.852[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+00.39.55.854[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+00.39.55.855[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+00.39.55.855[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+00.39.55.857[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+00.39.55.858[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+00.39.55.859[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+00.39.55.862[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+00.39.55.862[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+00.39.55.870[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+00.39.55.904[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+00.39.55.905[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+00.39.56.003[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+00.39.56.003[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+00.39.56.018[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+00.39.56.033[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+00.39.56.048[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+00.39.56.049[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+00.39.56.123[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+00.39.56.124[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+00.39.56.124[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+00.39.56.124[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+00.39.56.124[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+00.39.56.124[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+00.39.56.124[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+00.39.56.125[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+00.39.56.125[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+00.39.56.126[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+00.39.56.127[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+00.39.56.127[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+00.39.56.140[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+00.39.56.140[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+00.39.56.141[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+00.39.56.433[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 27072 (auto-detected)
+00.39.56.436[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+00.39.56.436[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+00.39.56.440[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+00.39.56.441[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+00.39.56.444[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+00.39.56.492[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+00.39.56.493[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+00.39.56.493[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49f17954
+00.39.56.521[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+00.39.56.522[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+00.39.56.522[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+00.39.56.522[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+00.39.56.522[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+00.39.57.187[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+00.39.57.341[main]DEBUGio.netty.util.internal.ThreadLocalRandom--Dio.netty.initialSeedUniquifier: 0x231369e29187b260
+00.39.57.405[main]DEBUGbaseTest.BaseTest-Driver initialized: ChromeDriver: chrome on windows (0b5b449075de0192cb19ffa24a2e98d4)
+00.40.05.190[main]INFO baseTest.BaseTest-Initial Set up Done
+00.40.05.208[main]INFO baseTest.BaseTest-Login is working as expected
+00.40.07.445[main]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+00.40.11.406[main]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+00.40.16.004[main]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+00.40.16.975[main]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+00.41.11.064[main]INFO baseTest.BaseTest-Initial Set up Done
+00.41.11.064[main]INFO baseTest.BaseTest-Login is working as expected
+00.41.16.130[main]INFO baseTest.BaseTest-Initial Set up Done
+00.41.16.130[main]INFO baseTest.BaseTest-Login is working as expected
+00.41.21.206[main]INFO baseTest.BaseTest-Initial Set up Done
+00.41.21.206[main]INFO baseTest.BaseTest-Login is working as expected
+06.41.26.512[main]INFO baseTest.BaseTest-Closing WebDriver...
+06.41.31.778[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.05.40.935[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.05.41.132[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.05.41.138[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.05.41.138[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.05.41.144[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3c3820bb
+23.05.41.163[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.05.41.164[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.05.41.165[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.05.41.166[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.05.41.168[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.05.41.169[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.05.41.171[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.05.41.172[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.05.41.173[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @722c41f4
+23.05.41.176[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.05.41.177[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.05.41.177[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.05.41.178[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.05.41.178[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.05.41.178[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.05.41.179[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.05.41.180[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.05.41.182[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.05.41.183[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.05.41.191[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.05.41.219[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.05.41.219[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.05.41.236[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.05.41.236[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.05.41.251[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.05.41.274[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.05.41.286[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.05.41.286[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.05.41.349[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.05.41.349[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.05.41.350[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.05.41.351[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.05.41.364[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.05.41.366[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.05.41.366[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.05.41.608[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 38648 (auto-detected)
+23.05.41.610[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.05.41.611[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.05.41.613[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.05.41.614[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.05.41.615[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.05.41.669[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.05.41.670[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.05.41.670[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@45652daf
+23.05.41.695[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.05.41.695[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.05.41.695[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.05.41.695[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.05.41.695[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.05.45.196[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.05.45.303[main]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (67aa893b26e1da92b4615911a743dc72)
+23.05.49.785[main]INFO baseTest.BaseTest-Initial Set up Done
+23.05.49.831[main]INFO baseTest.BaseTest-Login is working as expected
+23.05.55.657[main]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.05.56.127[main]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.06.00.983[main]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.06.02.798[main]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.06.09.579[main]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.06.09.606[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.06.09.927[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.11.17.869[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.11.18.122[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.11.18.137[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.11.18.137[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.11.18.150[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@47b179d7
+23.11.18.174[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.11.18.175[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.11.18.177[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.11.18.179[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.11.18.180[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.11.18.181[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.11.18.182[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.11.18.183[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.11.18.185[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @add0edd
+23.11.18.187[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.11.18.188[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.11.18.190[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.11.18.191[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.11.18.191[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.11.18.192[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.11.18.195[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.11.18.196[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.11.18.200[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.11.18.201[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.11.18.223[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.11.18.266[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.11.18.266[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.11.18.379[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.11.18.380[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.11.18.424[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.11.18.457[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.11.18.487[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.11.18.487[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.11.18.638[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.11.18.638[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.11.18.639[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.11.18.639[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.11.18.639[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.11.18.640[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.11.18.640[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.11.18.640[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.11.18.640[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.11.18.641[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.11.18.641[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.11.18.642[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.11.18.662[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.11.18.662[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.11.18.663[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.11.19.009[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 9372 (auto-detected)
+23.11.19.011[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.11.19.012[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.11.19.017[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.11.19.018[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.11.19.019[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.11.19.067[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.11.19.067[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.11.19.068[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26f56eb5
+23.11.19.093[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.11.19.093[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.11.19.093[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.11.19.093[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.11.19.093[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.11.19.974[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.11.20.049[main]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (601ce2b0e4825c3b5be18ba887efaa08)
+23.11.23.763[main]INFO baseTest.BaseTest-Initial Set up Done
+23.11.23.779[main]INFO baseTest.BaseTest-Login is working as expected
+23.11.29.667[main]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.11.30.167[main]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.11.33.853[main]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.11.36.133[main]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.11.42.575[main]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.11.42.592[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.11.42.839[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.21.13.133[main]INFO baseTest.BaseTest-Initializing WebDriver...
+23.21.13.274[main]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.21.13.280[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.21.13.280[main]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.21.13.283[main]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@95bb2a2
+23.21.13.298[main]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.21.13.298[main]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 17
+23.21.13.299[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.21.13.300[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.21.13.300[main]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.21.13.301[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.21.13.302[main]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.21.13.303[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.21.13.304[main]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2133814f
+23.21.13.306[main]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.21.13.306[main]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.21.13.306[main]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.21.13.306[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.21.13.307[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.21.13.307[main]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.21.13.308[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.21.13.308[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.21.13.309[main]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.21.13.309[main]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.21.13.316[main]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.21.13.329[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.21.13.330[main]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.21.13.372[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.21.13.372[main]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.21.13.383[main]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.21.13.394[main]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.21.13.402[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.21.13.403[main]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.21.13.457[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.21.13.459[main]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.21.13.472[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.21.13.472[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.21.13.473[main]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.21.13.687[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 34872 (auto-detected)
+23.21.13.689[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.21.13.689[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.21.13.698[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+23.21.13.700[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.21.13.716[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d1 (auto-detected)
+23.21.13.747[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.21.13.747[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.21.13.747[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7b3e111c
+23.21.13.763[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.21.13.763[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.21.13.763[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.21.13.763[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.21.13.764[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.21.14.544[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.21.14.605[main]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (c5b482629196aa76fecd55ea3cd3ad87)
+23.21.18.625[main]INFO baseTest.BaseTest-Initial Set up Done
+23.21.18.643[main]INFO baseTest.BaseTest-Login is working as expected
+23.21.20.302[main]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.21.23.786[main]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.21.27.451[main]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.21.29.447[main]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.21.34.825[main]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.21.34.836[main]INFO baseTest.BaseTest-Closing WebDriver...
+23.21.35.119[main]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.23.07.063[TestNG-tests-1]INFO baseTest.BaseTest-Initializing WebDriver...
+23.23.07.307[TestNG-tests-1]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.23.07.329[TestNG-tests-1]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.23.07.329[TestNG-tests-1]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.23.07.356[TestNG-tests-1]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2b1e343a
+23.23.07.400[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.23.07.400[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.23.07.403[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.23.07.404[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.23.07.413[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.23.07.414[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.23.07.416[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.23.07.417[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.23.07.418[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @add0edd
+23.23.07.420[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.23.07.421[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.23.07.421[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.23.07.421[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.23.07.422[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.23.07.422[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.23.07.423[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.23.07.423[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.23.07.426[TestNG-tests-1]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.23.07.426[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.23.07.434[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.23.07.459[TestNG-tests-1]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.23.07.459[TestNG-tests-1]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.23.07.484[TestNG-tests-1]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.23.07.485[TestNG-tests-1]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.23.07.534[TestNG-tests-1]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.23.07.573[TestNG-tests-1]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.23.07.586[TestNG-tests-1]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.23.07.586[TestNG-tests-1]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.23.07.647[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.23.07.648[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.23.07.648[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.23.07.648[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.23.07.663[TestNG-tests-1]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.23.07.664[TestNG-tests-1]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.23.07.664[TestNG-tests-1]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.23.07.859[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 30852 (auto-detected)
+23.23.07.862[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.23.07.862[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.23.07.865[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.23.07.866[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.23.07.867[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.23.07.911[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.23.07.911[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.23.07.911[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@219b7cd4
+23.23.07.974[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.23.07.975[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.23.07.975[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.23.07.975[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.23.07.975[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.23.08.772[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.23.08.854[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (6cfeaccb8968085b93923ed8f7851d4f)
+23.23.12.797[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+23.23.12.816[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+23.23.14.515[TestNG-tests-1]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.23.17.863[TestNG-tests-1]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.23.22.302[TestNG-tests-1]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.23.23.374[TestNG-tests-1]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.23.32.472[TestNG-tests-1]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.23.32.477[TestNG-tests-1]INFO baseTest.BaseTest-Closing WebDriver...
+23.23.32.779[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.30.23.140[TestNG-tests-1]INFO baseTest.BaseTest-Initializing WebDriver...
+23.30.23.414[TestNG-tests-1]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.30.23.420[TestNG-tests-1]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.30.23.421[TestNG-tests-1]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.30.23.425[TestNG-tests-1]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4eac02fb
+23.30.23.447[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.30.23.448[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.30.23.449[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.30.23.450[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.30.23.451[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.30.23.452[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.30.23.452[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.30.23.453[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.30.23.456[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @add0edd
+23.30.23.457[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.30.23.458[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.30.23.458[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.30.23.459[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.30.23.459[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.30.23.459[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.30.23.460[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.30.23.460[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.30.23.462[TestNG-tests-1]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.30.23.463[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.30.23.473[TestNG-tests-1]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.30.23.495[TestNG-tests-1]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.30.23.496[TestNG-tests-1]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.30.23.525[TestNG-tests-1]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.30.23.525[TestNG-tests-1]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.30.23.550[TestNG-tests-1]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.30.23.570[TestNG-tests-1]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.30.23.583[TestNG-tests-1]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.30.23.584[TestNG-tests-1]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.30.23.676[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.30.23.677[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.30.23.677[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.30.23.677[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.30.23.677[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.30.23.678[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.30.23.678[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.30.23.678[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.30.23.679[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.30.23.679[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.30.23.680[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.30.23.680[TestNG-tests-1]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.30.23.701[TestNG-tests-1]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.30.23.701[TestNG-tests-1]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.30.23.702[TestNG-tests-1]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.30.23.983[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 42860 (auto-detected)
+23.30.23.985[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.30.23.986[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.30.23.991[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.30.23.992[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.30.23.994[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.30.24.054[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.30.24.055[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.30.24.055[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5a791c9b
+23.30.24.082[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.30.24.083[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.30.24.083[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.30.24.083[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.30.24.083[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.30.24.957[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.30.25.038[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (d6c0046993facc359841acd9e09bf1ca)
+23.30.29.601[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+23.30.29.616[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+23.30.34.253[TestNG-tests-1]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.30.34.629[TestNG-tests-1]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.30.38.267[TestNG-tests-1]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.30.40.284[TestNG-tests-1]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.30.45.987[TestNG-tests-1]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.30.45.991[TestNG-tests-1]INFO baseTest.BaseTest-Closing WebDriver...
+23.30.46.291[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.32.58.049[TestNG-tests-2]INFO baseTest.BaseTest-Initializing WebDriver...
+23.32.58.108[TestNG-tests-1]INFO baseTest.BaseTest-Initializing WebDriver...
+23.32.58.216[TestNG-tests-2]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+23.32.58.224[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+23.32.58.225[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+23.32.58.229[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@395c17aa
+23.32.58.252[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+23.32.58.252[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+23.32.58.253[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+23.32.58.255[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+23.32.58.255[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+23.32.58.257[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+23.32.58.258[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+23.32.58.259[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+23.32.58.260[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @add0edd
+23.32.58.261[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+23.32.58.261[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+23.32.58.262[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+23.32.58.262[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+23.32.58.263[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+23.32.58.263[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+23.32.58.264[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+23.32.58.264[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+23.32.58.264[TestNG-tests-2]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+23.32.58.266[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+23.32.58.270[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+23.32.58.285[TestNG-tests-2]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+23.32.58.285[TestNG-tests-2]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+23.32.58.459[TestNG-tests-2]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+23.32.58.460[TestNG-tests-2]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+23.32.58.471[TestNG-tests-2]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+23.32.58.481[TestNG-tests-2]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+23.32.58.488[TestNG-tests-2]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+23.32.58.489[TestNG-tests-2]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+23.32.58.543[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+23.32.58.544[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+23.32.58.545[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+23.32.58.545[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+23.32.58.545[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+23.32.58.561[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+23.32.58.561[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+23.32.58.562[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+23.32.58.836[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 10060 (auto-detected)
+23.32.58.839[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+23.32.58.839[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+23.32.58.842[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+23.32.58.842[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+23.32.58.844[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+23.32.58.874[AsyncHttpClient-1-3]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+23.32.58.875[AsyncHttpClient-1-3]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+23.32.58.875[AsyncHttpClient-1-3]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2c7c14d1
+23.32.58.903[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+23.32.58.904[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+23.32.58.904[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+23.32.58.904[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+23.32.58.904[AsyncHttpClient-1-2]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+23.32.59.814[AsyncHttpClient-1-2]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+23.32.59.901[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (c8fea4fc0723049b7903e2948c9b24ed)
+23.33.01.771[TestNG-tests-2]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: MicrosoftEdge on Windows 11 (dae9bea495549a962173d081bd473576)
+23.33.04.369[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+23.33.04.415[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+23.33.05.345[TestNG-tests-2]INFO baseTest.BaseTest-Initial Set up Done
+23.33.05.346[TestNG-tests-2]INFO baseTest.BaseTest-Login is working as expected
+23.33.10.103[TestNG-tests-1]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.33.10.259[TestNG-tests-2]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+23.33.10.493[TestNG-tests-1]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.33.10.667[TestNG-tests-2]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+23.33.14.218[TestNG-tests-1]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.33.15.217[TestNG-tests-2]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+23.33.15.441[TestNG-tests-1]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.33.16.214[TestNG-tests-2]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+23.33.21.317[TestNG-tests-1]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.33.21.340[TestNG-tests-1]INFO baseTest.BaseTest-Closing WebDriver...
+23.33.21.613[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver closed successfully.
+23.33.22.530[TestNG-tests-2]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+23.33.22.539[TestNG-tests-2]INFO baseTest.BaseTest-Closing WebDriver...
+23.33.22.941[TestNG-tests-2]DEBUGbaseTest.BaseTest-Driver closed successfully.
+11.02.19.076[TestNG-tests-1]INFO baseTest.BaseTest-Initializing WebDriver...
+11.02.19.187[TestNG-tests-2]INFO baseTest.BaseTest-Initializing WebDriver...
+11.02.19.389[TestNG-tests-2]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+11.02.19.400[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+11.02.19.402[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+11.02.19.409[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3de42537
+11.02.19.434[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+11.02.19.435[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+11.02.19.437[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+11.02.19.438[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+11.02.19.439[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+11.02.19.442[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+11.02.19.443[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+11.02.19.445[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+11.02.19.447[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @add0edd
+11.02.19.450[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+11.02.19.450[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+11.02.19.451[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+11.02.19.452[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+11.02.19.452[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+11.02.19.453[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+11.02.19.454[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+11.02.19.454[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+11.02.19.457[TestNG-tests-2]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+11.02.19.457[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+11.02.19.465[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+11.02.19.499[TestNG-tests-2]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+11.02.19.500[TestNG-tests-2]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+11.02.20.000[TestNG-tests-2]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+11.02.20.000[TestNG-tests-2]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+11.02.20.031[TestNG-tests-2]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+11.02.20.062[TestNG-tests-2]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+11.02.20.094[TestNG-tests-2]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+11.02.20.095[TestNG-tests-2]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+11.02.20.265[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+11.02.20.300[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+11.02.20.300[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+11.02.20.300[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+11.02.20.848[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 43160 (auto-detected)
+11.02.20.855[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+11.02.20.855[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+11.02.20.860[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+11.02.20.862[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11.02.20.866[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+11.02.20.956[AsyncHttpClient-1-3]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+11.02.20.957[AsyncHttpClient-1-3]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+11.02.20.958[AsyncHttpClient-1-3]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b56ef1f
+11.02.21.041[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+11.02.21.042[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+11.02.21.042[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+11.02.21.042[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+11.02.21.043[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+11.02.22.542[AsyncHttpClient-1-3]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+11.02.22.820[TestNG-tests-2]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: MicrosoftEdge on Windows 11 (807bf0bf443275b94577bbe8299ddce5)
+11.02.23.366[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (2127daa126c09fd500583330263a9406)
+11.02.26.738[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+11.02.26.795[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+11.02.26.825[TestNG-tests-2]INFO baseTest.BaseTest-Initial Set up Done
+11.02.26.825[TestNG-tests-2]INFO baseTest.BaseTest-Login is working as expected
+11.02.30.679[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+11.02.30.680[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+11.02.31.700[TestNG-tests-2]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+11.02.31.909[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+11.02.31.910[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+11.02.32.165[TestNG-tests-2]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+11.02.33.039[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+11.02.33.041[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+11.02.34.413[TestNG-tests-1]INFO baseTest.BaseTest-Closing WebDriver...
+11.02.34.779[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver closed successfully.
+11.02.35.627[TestNG-tests-2]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+11.02.37.637[TestNG-tests-2]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+11.02.45.380[TestNG-tests-2]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+11.02.45.383[TestNG-tests-2]INFO baseTest.BaseTest-Closing WebDriver...
+11.02.45.775[TestNG-tests-2]DEBUGbaseTest.BaseTest-Driver closed successfully.
+11.03.36.823[TestNG-tests-1]INFO baseTest.BaseTest-Initializing WebDriver...
+11.03.36.823[TestNG-tests-2]INFO baseTest.BaseTest-Initializing WebDriver...
+11.03.36.970[TestNG-tests-2]DEBUGio.netty.util.internal.logging.InternalLoggerFactory-Using Log4J2 as the default logging framework
+11.03.36.978[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.level: simple
+11.03.36.978[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetector--Dio.netty.leakDetection.targetRecords: 4
+11.03.36.981[TestNG-tests-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@242115c4
+11.03.36.993[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0--Dio.netty.noUnsafe: false
+11.03.36.993[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-Java version: 21
+11.03.36.995[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.theUnsafe: available
+11.03.36.995[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.copyMemory: available
+11.03.36.996[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-sun.misc.Unsafe.storeFence: available
+11.03.36.998[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Buffer.address: available
+11.03.36.999[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+11.03.36.999[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.Bits.unaligned: available, true
+11.03.37.000[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @add0edd
+11.03.37.001[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent0-java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+11.03.37.001[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-sun.misc.Unsafe: available
+11.03.37.003[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-maxDirectMemory: 4198498304 bytes (maybe)
+11.03.37.003[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.tmpdir: C:\Users\ankit\AppData\Local\Temp (java.io.tmpdir)
+11.03.37.003[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.bitMode: 64 (sun.arch.data.model)
+11.03.37.004[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-Platform: Windows
+11.03.37.004[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.maxDirectMemory: -1 bytes
+11.03.37.004[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.uninitializedArrayAllocationThreshold: -1
+11.03.37.005[TestNG-tests-2]DEBUGio.netty.util.internal.CleanerJava9-java.nio.ByteBuffer.cleaner(): available
+11.03.37.006[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent--Dio.netty.noPreferDirect: false
+11.03.37.011[TestNG-tests-2]DEBUGio.netty.util.internal.PlatformDependent-org.jctools-core.MpscChunkedArrayQueue: available
+11.03.37.023[TestNG-tests-2]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+11.03.37.024[TestNG-tests-2]DEBUGio.netty.util.internal.InternalThreadLocalMap--Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+11.03.37.167[TestNG-tests-2]DEBUGio.netty.handler.ssl.JdkSslContext-Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+11.03.37.168[TestNG-tests-2]DEBUGio.netty.handler.ssl.JdkSslContext-Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+11.03.37.178[TestNG-tests-2]DEBUGio.netty.util.concurrent.GlobalEventExecutor--Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+11.03.37.189[TestNG-tests-2]DEBUGio.netty.channel.MultithreadEventLoopGroup--Dio.netty.eventLoopThreads: 32
+11.03.37.199[TestNG-tests-2]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.noKeySetOptimization: false
+11.03.37.199[TestNG-tests-2]DEBUGio.netty.channel.nio.NioEventLoop--Dio.netty.selectorAutoRebuildThreshold: 512
+11.03.37.258[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numHeapArenas: 32
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.numDirectArenas: 32
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.pageSize: 8192
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxOrder: 9
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.chunkSize: 4194304
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.smallCacheSize: 256
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.normalCacheSize: 64
+11.03.37.259[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedBufferCapacity: 32768
+11.03.37.260[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimInterval: 8192
+11.03.37.260[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.cacheTrimIntervalMillis: 0
+11.03.37.260[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.useCacheForAllThreads: false
+11.03.37.260[TestNG-tests-2]DEBUGio.netty.buffer.PooledByteBufAllocator--Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+11.03.37.272[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.allocator.type: pooled
+11.03.37.273[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.threadLocalDirectBufferSize: 0
+11.03.37.273[TestNG-tests-2]DEBUGio.netty.buffer.ByteBufUtil--Dio.netty.maxThreadLocalCharBufferSize: 16384
+11.03.37.476[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.processId: 20220 (auto-detected)
+11.03.37.477[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv4Stack: false
+11.03.37.478[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil--Djava.net.preferIPv6Addresses: false
+11.03.37.480[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtilInitializations-Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+11.03.37.481[Forwarding newSession on session null to remote]DEBUGio.netty.util.NetUtil-Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11.03.37.482[Forwarding newSession on session null to remote]DEBUGio.netty.channel.DefaultChannelId--Dio.netty.machineId: ac:19:8e:ff:fe:72:3e:d5 (auto-detected)
+11.03.37.506[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkAccessible: true
+11.03.37.506[AsyncHttpClient-1-2]DEBUGio.netty.buffer.AbstractByteBuf--Dio.netty.buffer.checkBounds: true
+11.03.37.507[AsyncHttpClient-1-2]DEBUGio.netty.util.ResourceLeakDetectorFactory-Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@26d7326d
+11.03.37.524[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.maxCapacityPerThread: 4096
+11.03.37.525[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.ratio: 8
+11.03.37.525[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.chunkSize: 32
+11.03.37.525[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.blocking: false
+11.03.37.525[AsyncHttpClient-1-3]DEBUGio.netty.util.Recycler--Dio.netty.recycler.batchFastThreadLocalOnly: true
+11.03.38.345[AsyncHttpClient-1-3]DEBUGio.netty.handler.codec.compression.Brotli-brotli4j not in the classpath; Brotli support will be unavailable.
+11.03.38.409[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: chrome on Windows 11 (1b4f54fa1cf1315566a29f1646438577)
+11.03.38.698[TestNG-tests-2]DEBUGbaseTest.BaseTest-Driver initialized: RemoteWebDriver: MicrosoftEdge on Windows 11 (100c302f5da07726bf74db8e92bdbc23)
+11.03.41.777[TestNG-tests-1]INFO baseTest.BaseTest-Initial Set up Done
+11.03.41.804[TestNG-tests-1]INFO baseTest.BaseTest-Login is working as expected
+11.03.42.083[TestNG-tests-2]INFO baseTest.BaseTest-Initial Set up Done
+11.03.42.085[TestNG-tests-2]INFO baseTest.BaseTest-Login is working as expected
+11.03.46.049[TestNG-tests-1]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+11.03.46.370[TestNG-tests-2]INFO baseTest.BaseTest-HomePage object is created and User successfully logged in
+11.03.46.962[TestNG-tests-1]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+11.03.47.201[TestNG-tests-2]INFO baseTest.BaseTest-ProductPage object is created and User successfully added product in cart.
+11.03.51.743[TestNG-tests-2]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+11.03.53.088[TestNG-tests-1]INFO baseTest.BaseTest-CheckoutPage object is created and User successfully added product in cart.
+11.03.53.097[TestNG-tests-2]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+11.03.54.515[TestNG-tests-1]INFO baseTest.BaseTest-CartPage object is created and User successfullyproceed to checkout.
+11.03.59.193[TestNG-tests-2]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+11.03.59.215[TestNG-tests-2]INFO baseTest.BaseTest-Closing WebDriver...
+11.03.59.564[TestNG-tests-2]DEBUGbaseTest.BaseTest-Driver closed successfully.
+11.04.03.024[TestNG-tests-1]INFO baseTest.BaseTest-PaymentPage object is created and User successfully made Payment
+11.04.03.024[TestNG-tests-1]INFO baseTest.BaseTest-Closing WebDriver...
+11.04.03.285[TestNG-tests-1]DEBUGbaseTest.BaseTest-Driver closed successfully.

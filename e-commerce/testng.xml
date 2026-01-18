@@ -4,10 +4,12 @@
 	<listeners>
 		<listener class-name="utils.ExtentReport" />
 	</listeners>
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="https://automationexercise.com"></parameter>
 	<test thread-count="5" name="e2e Test">
 		<classes>
 			<class name="tests.EUTest" />
-			<class name="tests.EndUserTest" />
+			<!--<class name="tests.EndUserTest" />-->
 		</classes>
 	</test> <!--	Test -->
 </suite> <!--Suite -->

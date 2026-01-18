@@ -8,6 +8,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import baseTest.BaseTest;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.IRetryAnalyzer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -38,34 +39,40 @@ public class ExtentReport implements ITestListener {
 	}
 	public void onTestSuccess(ITestResult result){
 		test = extent.createTest(result.getName());
-		// test.log(Status.PASS,result.getName());
+		test.log(Status.PASS,result.getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.createNode(result.getName());
 		test.log(Status.PASS,"Test Passed");
 	}
 	public void onTestFailure(ITestResult result){
 		test = extent.createTest(result.getName());
-		// test.log(Status.PASS,result.getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.createNode(result.getName());
 		test.log(Status.FAIL,"Test Failed");
-
-		// Retrieve driver from TestNG context
+		
+		//Retrieve driver from TestNG context
 		//WebDriver driver = (WebDriver) result.getTestContext().getAttribute("driver");
-		if (BaseTest.driver != null) {
-			String screenshotPath = BaseTest.captureScreenshot(BaseTest.driver, result.getName());
+		
+		Object testClass = result.getInstance();
+		WebDriver driver = ((BaseTest) testClass).driver;
+		
+		if(driver!= null) {
+			String screenshotPath = BaseTest.captureScreenshot(driver, result.getName());
 			test.addScreenCaptureFromPath(screenshotPath);
 
 		} else {
 			test.log(Status.WARNING, "Driver was null, screenshot not captured.");
 		}
-
-
+		
+		IRetryAnalyzer retry = result.getMethod().getRetryAnalyzer(result);
+		System.out.println(retry);
+		if(retry!=null) {
+			System.out.println("Retrying test if retries are available..");
+		}
 
 	}
 	public void onTestSkipped(ITestResult result){
 		test = extent.createTest(result.getName());
-		// test.log(Status.PASS,result.getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.createNode(result.getName());
 		test.log(Status.SKIP,"Test Skipped");

@@ -1,52 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-25T23:18:52 IST" name="E-Commerce Suite" finished-at="2025-12-25T23:19:48 IST" duration-ms="56317">
+  <suite started-at="2026-01-15T23:05:39 IST" name="E-Commerce Suite" finished-at="2026-01-15T23:06:09 IST" duration-ms="30905">
     <groups>
-      <group name="smoke">
-        <method signature="EndUserTest.buyProduct()[pri:0, instance:tests.EndUserTest@12bcd0c0]" name="buyProduct" class="tests.EndUserTest"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-12-25T23:18:52 IST" name="e2e Test" finished-at="2025-12-25T23:19:48 IST" duration-ms="56317">
-      <class name="tests.EndUserTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.EndUserTest@12bcd0c0]" started-at="2025-12-25T23:19:16 IST" name="setUp" finished-at="2025-12-25T23:19:20 IST" duration-ms="4593" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1f45db49]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="buyProduct()[pri:0, instance:tests.EndUserTest@12bcd0c0]" started-at="2025-12-25T23:19:20 IST" name="buyProduct" finished-at="2025-12-25T23:19:48 IST" duration-ms="27461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndUserTest@12bcd0c0]" started-at="2025-12-25T23:19:48 IST" name="tearDown" finished-at="2025-12-25T23:19:48 IST" duration-ms="428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.EndUserTest -->
+    <test started-at="2026-01-15T23:05:39 IST" name="e2e Test" finished-at="2026-01-15T23:06:09 IST" duration-ms="30905">
       <class name="tests.EUTest">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:tests.EUTest@75f5fd58]" started-at="2025-12-25T23:18:52 IST" name="setUp" finished-at="2025-12-25T23:18:59 IST" duration-ms="7311" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EUTest@4678a2eb]" started-at="2026-01-15T23:05:39 IST" name="setUp" finished-at="2026-01-15T23:05:49 IST" duration-ms="10506" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1f45db49]]>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://automationexercise.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ef037e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buyProduct()[pri:0, instance:tests.EUTest@75f5fd58]" started-at="2025-12-25T23:18:59 IST" name="buyProduct" finished-at="2025-12-25T23:19:15 IST" duration-ms="15376" status="PASS">
+        <test-method signature="buyProduct()[pri:0, instance:tests.EUTest@4678a2eb]" started-at="2026-01-15T23:05:49 IST" name="buyProduct" finished-at="2026-01-15T23:06:09 IST" duration-ms="19813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EUTest@75f5fd58]" started-at="2025-12-25T23:19:15 IST" name="tearDown" finished-at="2025-12-25T23:19:16 IST" duration-ms="803" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EUTest@4678a2eb]" started-at="2026-01-15T23:06:09 IST" name="tearDown" finished-at="2026-01-15T23:06:09 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
