@@ -13,11 +13,10 @@
 		</classes>
 	</test>
 	<!-- Firefox Test -->
-	<test name="FirefoxTest">
+	<test name="EdgeTest">
 		<parameter name="browser" value="edge" />
 		<classes>
-			<class name="tests.EUTest" />
+			<class name="tests.EndUserTest" />
 		</classes>
 	</test>
-
 </suite>

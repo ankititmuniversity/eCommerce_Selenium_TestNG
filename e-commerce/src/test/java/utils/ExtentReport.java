@@ -13,6 +13,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.awt.Desktop;
+import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -24,7 +26,7 @@ public class ExtentReport implements ITestListener {
 	public String reportName;
 	public void onStart(ITestContext testContext) {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		reportName = "Test_Report -" + timeStamp + ".html";
+		reportName = "Test_Report" + timeStamp + ".html";
 		sparkReporter = new ExtentSparkReporter(System.getProperty("user.dir")+"/reports/" + reportName);
 		sparkReporter.config().setDocumentTitle("e_Commerce");
 		sparkReporter.config().setReportName("eCommerce User_Module");
@@ -49,26 +51,29 @@ public class ExtentReport implements ITestListener {
 		test.assignCategory(result.getMethod().getGroups());
 		test.createNode(result.getName());
 		test.log(Status.FAIL,"Test Failed");
-		
-		//Retrieve driver from TestNG context
-		//WebDriver driver = (WebDriver) result.getTestContext().getAttribute("driver");
-		
+
 		Object testClass = result.getInstance();
 		WebDriver driver = ((BaseTest) testClass).driver;
-		
+
 		if(driver!= null) {
-			String screenshotPath = BaseTest.captureScreenshot(driver, result.getName());
+			String screenshotPath="";
+			try {
+				screenshotPath = BaseTest.captureScreenshot(driver, result.getName());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			test.addScreenCaptureFromPath(screenshotPath);
 
 		} else {
 			test.log(Status.WARNING, "Driver was null, screenshot not captured.");
 		}
-		
+
 		IRetryAnalyzer retry = result.getMethod().getRetryAnalyzer(result);
 		System.out.println(retry);
 		if(retry!=null) {
 			System.out.println("Retrying test if retries are available..");
-		}
+		}	
 
 	}
 	public void onTestSkipped(ITestResult result){
@@ -79,5 +84,12 @@ public class ExtentReport implements ITestListener {
 	}
 	public void onFinish(ITestContext testContext){
 		extent.flush();
+		String pathOfReport = System.getProperty("user.dir")+"\\reports\\"+reportName;
+		File extentReport = new File(pathOfReport);
+		try {
+			Desktop.getDesktop().browse(extentReport.toURI());
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
