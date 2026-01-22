@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent { label 'ansible' }
+
     
     stages {
         stage('Fetch Artifact') {
@@ -59,3 +60,4 @@ pipeline {
             echo "Release pipeline failed!"
         }
     }
+}    
