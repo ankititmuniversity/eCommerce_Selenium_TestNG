@@ -2,6 +2,12 @@ pipeline {
     agent any
 
     stages {
+        stage('Check Ansible') {
+            steps {
+                sh 'ansible --version'
+            }
+        }
+
         stage('Fetch Artifact') {
             steps {
                 // Copy artifact from build workspace or artifact repo
