@@ -1,47 +1,39 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven_3.9.4'   // must match Global Tool Configuration
-        jdk 'JDK11'           // must match Global Tool Configuration
-    }
-
-    triggers {
-        githubPush()
-    }
-
     stages {
-        stage('Checkout') {
+        stage('Fetch Artifact') {
             steps {
-                git branch: 'test/e2e_UI', url: 'https://github.com/ankititmuniversity/eCommerce_Selenium_TestNG.git'
+                // Copy artifact from build workspace or artifact repo
+                sh 'cp C:/Users/ankit/.jenkins/workspace/MyFirst_CICD_Pipeline/e-commerce/target/e-commerce-0.0.1-SNAPSHOT.jar ./app.jar'
             }
         }
 
-        stage('Build & Test') {
+        stage('Deploy to QA') {
             steps {
-                sh 'mvn clean test -f e-commerce/pom.xml'
+                sh 'ansible-playbook -i inventories/qa.ini deploy.yml --extra-vars "artifact=app.jar env=qa"'
             }
         }
 
-        stage('Publish Reports') {
+        stage('Approval for Prod') {
             steps {
-                //junit '**/target/surefire-reports/*.xml'
-                // or use testng '**/test-output/testng-results.xml' if TestNG plugin is installed
-                testng '**/test-output/testng-results.xml'
+                input message: "Deploy to Production?", ok: "Yes, Deploy"
+            }
+        }
+
+        stage('Deploy to Prod') {
+            steps {
+                sh 'ansible-playbook -i inventories/prod.ini deploy.yml --extra-vars "artifact=app.jar env=prod"'
             }
         }
     }
 
     post {
         success {
-            echo 'Build and tests passed successfully!'
+            echo "Release pipeline completed successfully!"
         }
         failure {
-            echo 'Build or tests failed. Please check logs and reports.'
-        }
-        always {
-           // archiveArtifacts artifacts: 'target/surefire-reports/*.xml', fingerprint: true
-            archiveArtifacts artifacts: 'test-output/*.xml', fingerprint: true
+            echo "Release pipeline failed!"
         }
     }
 }
