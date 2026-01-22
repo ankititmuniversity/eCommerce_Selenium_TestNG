@@ -2,20 +2,6 @@ pipeline {
     agent any
     
     stages {
-         stage('Build & Test') {
-                steps {
-                    sh 'mvn clean package -f e-commerce/pom.xml'
-                }
-            }
-        }
-
-        post {
-            success {
-                echo "Build successful, triggering release pipeline..."
-                build job: 'e-commerce-release', wait: false
-            }
-        }
-
         stage('Fetch Artifact') {
             steps {
                 copyArtifacts(
@@ -73,4 +59,3 @@ pipeline {
             echo "Release pipeline failed!"
         }
     }
-}
