@@ -1,0 +1,7 @@
+pages\ViewProductPage.class
+pages\PaymentPage.class
+pages\ProductPage.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\HomePage.class
+pages\CheckoutPage.class

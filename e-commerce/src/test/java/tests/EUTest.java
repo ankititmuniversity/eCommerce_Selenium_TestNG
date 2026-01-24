@@ -13,9 +13,9 @@ import pages.ProductPage;
 import utils.RetryAnalyzer;
 import utils.TestDataProvider;
 public class EUTest extends BaseTest {
-	
+
 	//@Test(retryAnalyzer=RetryAnalyzer.class)
-	@Test(groups = {"smoke"},dataProvider = "credentials", dataProviderClass = TestDataProvider.class)
+	@Test(groups = {"smoke"},dataProvider = "credentials", dataProviderClass = TestDataProvider.class,retryAnalyzer=RetryAnalyzer.class)
 	public void buyProduct(String email,String password) {
 		logger.info("Initial Set up Done");
 		LoginPage loginPage = new LoginPage(driver);
