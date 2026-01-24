@@ -1,14 +1,28 @@
 pipeline {
-    agent { label 'ansible' }
-    tools {
-        git 'Git-Linux'
-    }
+    agent none
     stages {
-        stage('Checkout') {
+        stage('Checkout on Windows') {
+            agent { label 'windows-node' }
+            tools {
+                git 'Git-Windows'   // must match the name in Global Tool Configuration
+            }
             steps {
                 checkout scm
+                bat 'git --version'
             }
         }
+
+        stage('Checkout on Linux') {
+            agent { label 'ansible-node' }
+            tools {
+                git 'Git-Linux'     // must match the name in Global Tool Configuration
+            }
+            steps {
+                checkout scm
+                sh 'git --version'
+            }
+        }
+
         stage('Build & Test') {
             steps {
                 sh 'mvn clean package -f e-commerce/pom.xml'
