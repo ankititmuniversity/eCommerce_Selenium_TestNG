@@ -1,15 +1,15 @@
 pipeline {
     agent none
     stages {
-        stage('Checkout on Windows') {
-            agent { label 'Built-In Node' }
-            tools {
-                git 'Git-Windows'
-            }
-            steps {
-                checkout scm
-            }
-        }
+        // stage('Checkout on Windows') {
+        //     agent { label 'Built-In Node' }
+        //     tools {
+        //         git 'Git-Windows'
+        //     }
+        //     steps {
+        //         checkout scm
+        //     }
+        // }
 
         stage('Checkout on Linux') {
             agent { label 'ansible-node' }
