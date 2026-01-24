@@ -1,34 +1,12 @@
 pipeline {
-    agent none
+    agent { label 'ansible-node' }
     stages {
-        // stage('Checkout on Windows') {
-        //     agent { label 'Built-In Node' }
-        //     tools {
-        //         git 'Git-Windows'
-        //     }
-        //     steps {
-        //         checkout scm
-        //     }
-        // }
-
-        stage('Checkout on Linux') {
-            agent { label 'ansible-node' }
-            tools {
-                git 'Git-Linux'
-            }
-            steps {
-                checkout scm
-            }
-        }
-
         stage('Build & Test') {
-            agent { label 'ansible-node' }
             steps {
                 sh 'mvn clean package -f e-commerce/pom.xml'
             }
         }
     }
-
     post {
         success {
             archiveArtifacts artifacts: 'e-commerce/target/*.jar', fingerprint: true
