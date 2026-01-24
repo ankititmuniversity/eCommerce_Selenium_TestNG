@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-25T00:01:41 IST" name="SeleniumGridSuite" finished-at="2026-01-25T00:02:35 IST" duration-ms="54330">
+  <suite started-at="2026-01-24T23:48:32 IST" name="SeleniumGridSuite" finished-at="2026-01-24T23:49:25 IST" duration-ms="53688">
     <groups>
       <group name="smoke">
         <method signature="EUTest.buyProduct(java.lang.String,java.lang.String)[pri:0, instance:tests.EUTest@39a8312f]" name="buyProduct" class="tests.EUTest"/>
@@ -11,9 +11,9 @@
         <method signature="EndUserTest.buyProduct()[pri:0, instance:tests.EndUserTest@2f48b3d2]" name="buyProduct" class="tests.EndUserTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2026-01-25T00:01:41 IST" name="EdgeTest" finished-at="2026-01-25T00:02:30 IST" duration-ms="49344">
+    <test started-at="2026-01-24T23:48:32 IST" name="EdgeTest" finished-at="2026-01-24T23:49:25 IST" duration-ms="53688">
       <class name="tests.EndUserTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T00:01:41 IST" name="setUp" finished-at="2026-01-25T00:01:48 IST" duration-ms="6435" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-24T23:48:32 IST" name="setUp" finished-at="2026-01-24T23:48:45 IST" duration-ms="13245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,19 +34,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buyProduct()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T00:01:48 IST" name="buyProduct" finished-at="2026-01-25T00:02:30 IST" duration-ms="41897" status="PASS">
+        <test-method signature="buyProduct()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-24T23:48:45 IST" name="buyProduct" finished-at="2026-01-24T23:49:25 IST" duration-ms="39615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T00:02:30 IST" name="tearDown" finished-at="2026-01-25T00:02:30 IST" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-24T23:49:25 IST" name="tearDown" finished-at="2026-01-24T23:49:25 IST" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.EndUserTest -->
     </test> <!-- EdgeTest -->
-    <test started-at="2026-01-25T00:01:41 IST" name="ChromeTest" finished-at="2026-01-25T00:02:35 IST" duration-ms="54330">
+    <test started-at="2026-01-24T23:48:32 IST" name="ChromeTest" finished-at="2026-01-24T23:49:25 IST" duration-ms="53653">
       <class name="tests.EUTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T00:01:41 IST" name="setUp" finished-at="2026-01-25T00:01:48 IST" duration-ms="6757" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-24T23:48:32 IST" name="setUp" finished-at="2026-01-24T23:48:38 IST" duration-ms="6085" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buyProduct(java.lang.String,java.lang.String)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T00:01:50 IST" name="buyProduct" data-provider="credentials" finished-at="2026-01-25T00:02:34 IST" duration-ms="43827" status="PASS">
+        <test-method signature="buyProduct(java.lang.String,java.lang.String)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-24T23:48:43 IST" name="buyProduct" data-provider="credentials" finished-at="2026-01-24T23:49:21 IST" duration-ms="38068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T00:02:34 IST" name="tearDown" finished-at="2026-01-25T00:02:35 IST" duration-ms="1763" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-24T23:49:22 IST" name="tearDown" finished-at="2026-01-24T23:49:25 IST" duration-ms="3457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
