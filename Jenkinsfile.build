@@ -22,7 +22,6 @@ pipeline {
                 sh 'git --version'
             }
         }
-
         stage('Build & Test') {
             steps {
                 sh 'mvn clean package -f e-commerce/pom.xml'
