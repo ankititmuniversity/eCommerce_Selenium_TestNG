@@ -15,39 +15,38 @@ import pages.LoginPage;
 import pages.PaymentPage;
 import pages.ProductPage;
 import pages.ViewProductPage;
-import utils.RetryAnalyzer;
 
 public class EndUserTest extends BaseTest {
 
-	@Test(groups="sanity",retryAnalyzer=RetryAnalyzer.class)
+	@Test(groups="sanity")
 	public void buyProduct() throws InterruptedException {
 		loginPage = new LoginPage(driver);
 		homePage = new HomePage(driver);
-		productPage = new ProductPage(driver);
-		cartPage = new CartPage(driver);
-		checkoutPage = new CheckoutPage(driver);		    
-		paymentPage = new PaymentPage(driver);
-		viewProductPage = new ViewProductPage(driver);
-
+	    productPage = new ProductPage(driver);
+	    cartPage = new CartPage(driver);
+	    checkoutPage = new CheckoutPage(driver);		    
+	    paymentPage = new PaymentPage(driver);
+	    viewProductPage = new ViewProductPage(driver);
+		
 		loginPage.loginSignupLink();
 		loginPage.enterYourEmail(email);
 		loginPage.enterYourPassword(pwd);
 		loginPage.clickLoginBtn();
-
+		
 		Thread.sleep(5000);
 		homePage.goToWomenSection();
 		homePage.selectSaree();
-
+		
 		productPage.addItem();
 		System.out.println(productPage.checkMsg());
 		productPage.goToCart();
-
+		
 		cartPage.clickOnCart();
 		cartPage.clickCheckout();
-
+		
 		checkoutPage.giveYourComment("I am happy With my Shopping experience.");
 		checkoutPage.placeOrders();
-
+		
 		paymentPage.enterNameOnCard("Mohan Raj");
 		paymentPage.enterCardNumber("1234567890123456");
 		paymentPage.enterCVV("123");
