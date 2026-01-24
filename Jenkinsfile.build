@@ -1,0 +1,30 @@
+pipeline {
+    agent { label 'ansible-node' }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout([$class: 'GitSCM',
+                          branches: [[name: '*/test/e2e_UI']],
+                          userRemoteConfigs: [[url: 'https://github.com/ankititmuniversity/eCommerce_Selenium_TestNG.git']],
+                          extensions: [],
+                          gitTool: 'Git-Linux'   
+                ])
+            }
+        }
+
+        stage('Build & Test') {
+            steps {
+                sh 'mvn clean package -f e-commerce/pom.xml'
+            }
+        }
+    }
+
+    post {
+        success {
+            archiveArtifacts artifacts: 'e-commerce/target/*.jar', fingerprint: true
+            echo "Build successful, triggering release pipeline..."
+            build job: 'e-commerce-release', wait: false
+        }
+    }
+}
