@@ -81,7 +81,7 @@ public class BaseTest {
 						driver = new ChromeDriver(options);
 						//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
 						logger.debug("Driver initialized: {}", driver);
-						driver = new ChromeDriver(options);
+						//driver = new ChromeDriver(options);
 						logger.debug("Driver initialized: {}", driver);
 						break;
 		case "edge"  :  WebDriverManager.edgedriver().setup();
