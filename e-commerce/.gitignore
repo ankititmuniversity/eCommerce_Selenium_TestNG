@@ -2,5 +2,6 @@
 .settings/
 .classpath
 .project
-bin/
-target/
+logs/
+reports/
+screenshots/
