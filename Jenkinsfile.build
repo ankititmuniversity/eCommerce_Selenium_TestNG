@@ -1,5 +1,8 @@
 pipeline {
     agent { label 'ansible' }
+    tools {
+    git 'Git-Linux'
+    }
     stages {
         stage('Build & Test') {
             steps {
