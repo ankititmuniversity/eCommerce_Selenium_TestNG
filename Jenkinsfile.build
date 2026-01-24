@@ -2,7 +2,7 @@ pipeline {
     agent none
     stages {
         stage('Checkout on Windows') {
-            agent { label 'windows-node' }
+            agent { label 'Built-In Node' }
             tools {
                 git 'Git-Windows'
             }
