@@ -62,7 +62,7 @@ public class BaseTest {
 	public static final Logger logger = LogManager.getLogger(BaseTest.class);
 
 	@Parameters({"browser","url"})
-	@BeforeMethod(alwaysRun = true)
+	@BeforeClass(alwaysRun = true)
 	public void setUp(String browser,String url,ITestContext context) throws MalformedURLException {
 		//		browser = ConfigManager.getBrowser();
 		//		url = ConfigManager.getUrl();
@@ -73,33 +73,31 @@ public class BaseTest {
 		reportPath = ConfigManager.getReportPath();
 
 		switch(browser) {
-		case "chrome" :// WebDriverManager.chromedriver().setup();
-						ChromeOptions options = new ChromeOptions();
-						options.addArguments("--incognito"); 
-						//options.addArguments("--headless=new");
-						logger.info("Initializing WebDriver...");
-						//driver = new ChromeDriver(options);
-						driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
-						logger.debug("Driver initialized: {}", driver);
-						driver = new ChromeDriver(options);
-						logger.debug("Driver initialized: {}", driver);
-						break;
-		case "edge"  :  //WebDriverManager.edgedriver().setup();
-						EdgeOptions eoptions = new EdgeOptions();
-						eoptions.addArguments("--incognito");
-						// Optional: set capabilities
-						//eoptions.setCapability("platformName", "WINDOWS");
-						//eoptions.setCapability("browserVersion", "latest");
-						logger.info("Initializing WebDriver...");
-						//driver = new EdgeDriver();
-						driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), eoptions);
-						logger.debug("Driver initialized: {}", driver);
-						break;	
+		case "chrome" : WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito"); 
+		//options.addArguments("--headless=new");
+		logger.info("Initializing WebDriver...");
+		driver = new ChromeDriver(options);
+		//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+		logger.debug("Driver initialized: {}", driver);
+		break;
+		case "edge"  :  WebDriverManager.edgedriver().setup();
+		EdgeOptions eoptions = new EdgeOptions();
+		eoptions.addArguments("--incognito");
+		// Optional: set capabilities
+		//eoptions.setCapability("platformName", "WINDOWS");
+		//eoptions.setCapability("browserVersion", "latest");
+		logger.info("Initializing WebDriver...");
+		driver = new EdgeDriver();
+		//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), eoptions);
+		logger.debug("Driver initialized: {}", driver);
+		break;	
 		case "firefox": WebDriverManager.firefoxdriver().setup();
-						logger.info("Initializing WebDriver...");				
-						driver = new FirefoxDriver();
-						logger.debug("Driver initialized: {}", driver);
-						break;	
+		logger.info("Initializing WebDriver...");				
+		driver = new FirefoxDriver();
+		logger.debug("Driver initialized: {}", driver);
+		break;	
 		default : 		driver = null;    				
 		}
 
@@ -124,7 +122,7 @@ public class BaseTest {
 		return screenshotPath;
 	}
 
-	@AfterMethod(alwaysRun = true)
+	@AfterClass(alwaysRun = true)
 	public void tearDown() {
 		logger.info("Closing WebDriver...");
 		driver.quit();
