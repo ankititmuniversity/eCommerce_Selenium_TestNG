@@ -10,8 +10,14 @@ pipeline {
 
         stage('Fetch Artifact') {
             steps {
-                // Pull the archived artifact from the upstream build
-                unarchive mapping: ['e-commerce/target/e-commerce-0.0.1-SNAPSHOT.jar' : 'app.jar']
+                // Copy artifact from the upstream build job
+                step([$class: 'CopyArtifact',
+                      projectName: 'eCommerceBuild',
+                      filter: 'e-commerce/target/*.jar',
+                      target: './',
+                      flatten: true,
+                      selector: [$class: 'StatusBuildSelector', stable: false]])
+                sh 'mv e-commerce-0.0.1-SNAPSHOT.jar app.jar'
             }
         }
 
