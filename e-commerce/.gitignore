@@ -1,7 +1,8 @@
 .metadata/
 .settings/
-.classpath
-.project
+bin/
 logs/
 reports/
-screenshots/
+screenshots/  
+target/
+*.log
