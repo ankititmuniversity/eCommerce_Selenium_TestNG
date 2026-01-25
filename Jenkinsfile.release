@@ -9,8 +9,14 @@ pipeline {
 
         stage('Fetch Artifact') {
             steps {
-                // Copy artifact from build workspace or artifact repo
-                sh 'cp C:/Users/ankit/.jenkins/workspace/eCommerce_CI_Demo/e-commerce/target/e-commerce-0.0.1-SNAPSHOT.jar ./app.jar'
+                copyArtifacts(
+                projectName: 'eCommerceBuild',
+                selector: lastSuccessful(),
+                filter: 'e-commerce/target/e-commerce-0.0.1-SNAPSHOT.jar',
+                target: './',
+                flatten: true
+                )
+                sh 'mv e-commerce-0.0.1-SNAPSHOT.jar app.jar'
             }
         }
 
