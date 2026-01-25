@@ -1,0 +1,14 @@
+- name: Deploy application
+  hosts: "{{ env }}"
+  become: true
+  tasks:
+    - name: Copy artifact to server
+      copy:
+        src: app.jar
+        dest: /opt/app/app.jar
+        mode: '0644'
+
+    - name: Restart application service
+      service:
+        name: myapp
+        state: restarted
