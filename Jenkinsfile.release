@@ -19,19 +19,16 @@ pipeline {
                 sh 'mv e-commerce-0.0.1-SNAPSHOT.jar app.jar'
             }
         }
-
         stage('Deploy to QA') {
             steps {
                 sh 'ansible-playbook -i inventories/qa.ini deploy.yml --extra-vars "artifact=app.jar env=qa"'
             }
         }
-
         stage('Approval for Prod') {
             steps {
                 input message: "Deploy to Production?", ok: "Yes, Deploy"
             }
         }
-
         stage('Deploy to Prod') {
             steps {
                 sh 'ansible-playbook -i inventories/prod.ini deploy.yml --extra-vars "artifact=app.jar env=prod"'
