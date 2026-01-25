@@ -11,7 +11,7 @@ pipeline {
             steps {
                 copyArtifacts(
                 projectName: 'eCommerceBuild',
-                selector: lastSuccessful(),
+                selector: specificBuild(lastSuccessfulBuild: true),
                 filter: 'e-commerce/target/e-commerce-0.0.1-SNAPSHOT.jar',
                 target: './',
                 flatten: true
