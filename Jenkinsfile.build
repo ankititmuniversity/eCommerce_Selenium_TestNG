@@ -1,3 +1,4 @@
+//Build and test pipeline for e-commerce application
 pipeline {
     agent { label 'ansible-node' }
 
