@@ -14,8 +14,11 @@ pipeline {
     post {
         success {
             archiveArtifacts artifacts: 'e-commerce/target/*.jar', fingerprint: true
-            echo "Build successful, triggering release pipeline..."
-            build job: 'e-commerce-release', wait: false
+            // Trigger release job only if archive succeeded
+            build job: 'e-commerce-release', propagate: true
+
+            // echo "Build successful, triggering release pipeline..."
+            // build job: 'e-commerce-release', wait: false
         }
     }
 }
