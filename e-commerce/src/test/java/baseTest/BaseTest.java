@@ -76,12 +76,12 @@ public class BaseTest {
 		case "chrome" : WebDriverManager.chromedriver().setup();
 										ChromeOptions options = new ChromeOptions();
 										options.addArguments("--incognito"); 
-										//options.addArguments("--headless=new");
+										options.addArguments("--headless=new"); 
+										options.addArguments("--no-sandbox");
+										options.addArguments("--disable-dev-shm-usage");
 										logger.info("Initializing WebDriver...");
 										driver = new ChromeDriver(options);
 										//driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
-										logger.debug("Driver initialized: {}", driver);
-										//driver = new ChromeDriver(options);
 										logger.debug("Driver initialized: {}", driver);
 										break;
 		case "edge"  :  WebDriverManager.edgedriver().setup();
