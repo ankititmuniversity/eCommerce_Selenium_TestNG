@@ -42,7 +42,7 @@ pipeline {
 
     post {
         success {
-            echo "Release pipeline completed successfully!"
+            echo "Release pipeline completed successfully!!"
         }
         failure {
             echo "Release pipeline failed!"
