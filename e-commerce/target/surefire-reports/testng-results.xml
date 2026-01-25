@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-25T11:39:31 IST" name="SeleniumGridSuite" finished-at="2026-01-25T11:40:25 IST" duration-ms="53981">
+  <suite started-at="2026-01-25T11:59:59 IST" name="SeleniumGridSuite" finished-at="2026-01-25T12:00:54 IST" duration-ms="55120">
     <groups>
       <group name="smoke">
         <method signature="EUTest.buyProduct(java.lang.String,java.lang.String)[pri:0, instance:tests.EUTest@39a8312f]" name="buyProduct" class="tests.EUTest"/>
@@ -11,9 +11,9 @@
         <method signature="EndUserTest.buyProduct()[pri:0, instance:tests.EndUserTest@2f48b3d2]" name="buyProduct" class="tests.EndUserTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2026-01-25T11:39:31 IST" name="EdgeTest" finished-at="2026-01-25T11:40:16 IST" duration-ms="45596">
-      <class name="tests.EndUserTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T11:39:31 IST" name="setUp" finished-at="2026-01-25T11:39:39 IST" duration-ms="8571" status="PASS">
+    <test started-at="2026-01-25T11:59:59 IST" name="ChromeTest" finished-at="2026-01-25T12:00:48 IST" duration-ms="49485">
+      <class name="tests.EUTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T11:59:59 IST" name="setUp" finished-at="2026-01-25T12:00:05 IST" duration-ms="6199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,19 +34,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buyProduct()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T11:39:39 IST" name="buyProduct" finished-at="2026-01-25T11:40:13 IST" duration-ms="33536" status="PASS">
+        <test-method signature="buyProduct(java.lang.String,java.lang.String)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T12:00:10 IST" name="buyProduct" data-provider="credentials" finished-at="2026-01-25T12:00:45 IST" duration-ms="35094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohan@mohan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohan@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T11:40:13 IST" name="tearDown" finished-at="2026-01-25T11:40:16 IST" duration-ms="3249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T12:00:45 IST" name="tearDown" finished-at="2026-01-25T12:00:48 IST" duration-ms="3180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.EndUserTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2026-01-25T11:39:31 IST" name="ChromeTest" finished-at="2026-01-25T11:40:25 IST" duration-ms="53981">
-      <class name="tests.EUTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T11:39:31 IST" name="setUp" finished-at="2026-01-25T11:39:39 IST" duration-ms="8231" status="PASS">
+      </class> <!-- tests.EUTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-01-25T11:59:59 IST" name="EdgeTest" finished-at="2026-01-25T12:00:54 IST" duration-ms="55120">
+      <class name="tests.EndUserTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T11:59:59 IST" name="setUp" finished-at="2026-01-25T12:00:05 IST" duration-ms="6501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,27 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="buyProduct(java.lang.String,java.lang.String)[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T11:39:42 IST" name="buyProduct" data-provider="credentials" finished-at="2026-01-25T11:40:23 IST" duration-ms="40265" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mohan@mohan.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mohan@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="buyProduct()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T12:00:05 IST" name="buyProduct" finished-at="2026-01-25T12:00:53 IST" duration-ms="47731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EUTest@39a8312f]" started-at="2026-01-25T11:40:23 IST" name="tearDown" finished-at="2026-01-25T11:40:25 IST" duration-ms="2170" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndUserTest@2f48b3d2]" started-at="2026-01-25T12:00:53 IST" name="tearDown" finished-at="2026-01-25T12:00:54 IST" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.EUTest -->
-    </test> <!-- ChromeTest -->
+      </class> <!-- tests.EndUserTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- SeleniumGridSuite -->
 </testng-results>
