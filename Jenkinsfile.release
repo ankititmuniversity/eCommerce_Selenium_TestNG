@@ -10,7 +10,7 @@ pipeline {
 
         stage('Fetch Artifact') {
             steps {
-                // Copy artifact from the upstream build job
+                //  Copy artifact from the upstream build job
                 step([$class: 'CopyArtifact',
                       projectName: 'eCommerceBuild',
                       filter: 'e-commerce/target/*.jar',
