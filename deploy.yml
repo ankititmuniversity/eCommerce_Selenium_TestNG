@@ -1,6 +1,5 @@
 - name: Deploy application
   hosts: "{{ env }}"
-  become: true
   tasks:
     - name: Copy artifact to server
       copy:
