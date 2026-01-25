@@ -15,7 +15,7 @@ pipeline {
         success {
             archiveArtifacts artifacts: 'e-commerce/target/*.jar', fingerprint: true
             // Trigger release job only if archive succeeded
-            build job: 'e-commerce-release', propagate: true
+            build job: 'e-commerce-release', propagate: false
         }
     }
 }
