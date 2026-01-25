@@ -2,6 +2,7 @@
   hosts: "{{ env }}"
   tasks:
     - name: Copy artifact to server
+    
       copy:
         src: app.jar
         dest: /opt/app/app.jar
